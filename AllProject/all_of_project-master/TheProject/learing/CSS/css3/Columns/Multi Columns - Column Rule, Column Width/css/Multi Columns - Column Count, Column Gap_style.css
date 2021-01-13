@@ -1,0 +1,22 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div
+{
+	-webkit-column-count: 3;   /* this is number of splite columns*/
+	column-count: 3;  
+
+	-webkit-column-gap: 100px; /* this is space between columns*/
+	column-gap: 100px;
+
+	-webkit-column-rule: 4px  dashed #080 ;   /* column-rule: <Width> | <Style> | <Color> */
+	column-rule: 4px  dashed #080;  
+
+	-webkit-column-width: 100px; /* this is give width for  columns*/
+	column-width: 100px;
+}

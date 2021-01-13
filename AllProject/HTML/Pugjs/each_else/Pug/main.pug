@@ -1,0 +1,16 @@
+doctype
+html
+    head
+        meta(name="name" content="content")
+        meta(charset="utf-8")
+        title The Page
+    body
+        .main
+            //- each && else This To Make Loop On ==> [Array , String , Object]
+            - var myNames = ['Mohmad' , 'Ali' , 'Ahmed' , 'Safe' , 'Malek']
+
+            ul
+                each val,index in myNames
+                    li= index + ' : ' + val
+                else
+                    div Thare Is No Elment

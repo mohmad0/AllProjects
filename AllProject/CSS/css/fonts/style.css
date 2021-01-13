@@ -1,0 +1,12 @@
+p 
+{	
+		width: 600px;
+	/*
+		font-style: italic;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 40px;
+		font-family: Tahoma,Arial  ===> you must be search about  ===> [ Save Fonts ] Befour that
+	*/
+	 font: italic bold 30px /40px Tahoma,Arial;  /* font: font-style / font-weight / font-size / line-height / font-family; */
+}

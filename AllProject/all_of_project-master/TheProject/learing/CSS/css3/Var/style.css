@@ -1,0 +1,12 @@
+:root
+{
+	--main-color:#fff;
+	--back-color:#455;
+}
+
+
+div
+{
+	background-color: var(--back-color, #000);
+	color: var(--main-color, #000);
+}

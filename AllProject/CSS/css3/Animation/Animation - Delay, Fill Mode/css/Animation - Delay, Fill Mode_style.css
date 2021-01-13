@@ -1,0 +1,174 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.one
+{
+	width:200px ;
+	height:100px ;
+	top: 10px;
+	left:10px;
+	background-color:#f00 ;
+	position: absolute;
+	animation-name: moving;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+	animation-duration: alternate ;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+
+.tow
+{
+	width:200px ;
+	height:100px ;
+	top: 10px;
+	left:300px;
+	background-color:#00f ;
+	position: absolute;
+	animation-name: moving;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+	animation-duration: alternate ;
+	animation-delay: 3s;
+	animation-fill-mode: backwards;
+}
+
+.three
+{
+	width:200px ;
+	height:100px ;
+	top: 10px;
+	left:600px;
+	background-color:#ff0 ;
+	position: absolute;
+	animation-name: moving;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+	animation-duration: alternate ;
+	animation-delay: 3s;
+	animation-fill-mode: both;
+}
+
+@-webkit-keyframes moving {
+
+	0% {
+		top: 10px;
+		background-color: #080;
+	}
+
+	20% {
+		top: 50px;
+
+	}
+
+	30% {
+		top: 30px;
+	}
+
+
+	40% {
+		top: 100px;
+	}
+
+
+	50% {
+		top: 80px;
+	}
+
+
+	60% {
+		top: 130px;
+	}
+
+
+	70% {
+		top: 100px;
+	}
+
+
+	80% {
+		top: 150px;
+	}
+
+
+	90% {
+		top: 120px;
+	}
+
+	100% {
+		top: 200px;
+
+	}
+}
+
+@keyframes moving {
+
+	0% {
+		top: 10px;
+		background-color: #080;
+	}
+
+	20% {
+		top: 90px;
+
+	}
+
+	30% {
+		top: 60px;
+	}
+
+
+	40% {
+		top: 100px;
+	}
+
+
+	50% {
+		top: 80px;
+	}
+
+
+	60% {
+		top: 130px;
+	}
+
+
+	70% {
+		top: 100px;
+	}
+
+
+	80% {
+		top: 150px;
+	}
+
+
+	90% {
+		top: 120px;
+	}
+
+	100% {
+		top: 200px;
+
+	}
+}
+
+/*
+
+	animation-delay: 3s; ===> this time that will begin the animation
+
+///////////////////////////////////////////////////////////////////////////////
+
+	animation-fill-mode: forwards; 	===> this after animation is End will stop At last Stage of animation  
+
+	animation-fill-mode: backwards; ===> this befour animation start will take the first key from animation
+
+	animation-fill-mode: both;		===> this sum between [ forwards && backwards ]
+
+
+*/

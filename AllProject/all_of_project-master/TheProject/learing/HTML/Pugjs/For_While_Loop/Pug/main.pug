@@ -1,0 +1,27 @@
+doctype
+html
+    head
+        meta(name="name" content="content")
+        meta(charset="utf-8")
+        title The Page
+    body
+        .main
+            //- For Loop Has Interpolation ==> #{x}
+            ul 
+                - for(var x = 0; x <= 10; x++)
+                    li #{x}
+
+            //- For Loop Not Has Interpolation ==> #{x}
+            ul 
+                - for(var z = 0; z <= 10; z++)
+                    li Item
+
+            //- While Loop Not Has Interpolation ==> #{x}
+            - var a = 0
+
+            ul 
+                  while a <= 10
+                    li= a++
+
+
+

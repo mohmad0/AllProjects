@@ -1,0 +1,17 @@
+.left
+{
+	width:300px ;
+	background:#00f ;
+	color:#fff ;
+	padding:10px ;
+	float:left;
+	margin:10px ;
+}
+.clear
+{
+	clear: both; /* this will be clear after float for left && right ==> && you can edit left after float:left; or right after float:right; */
+}
+.right
+{
+	float: right;
+}

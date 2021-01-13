@@ -1,0 +1,20 @@
+
+
+Words You Will Hear:
+--------------------
+1- git add . or * ==> [ This Will Add All Files ]
+2- git add name of File Or Folder
+3- git reset . or * [ This Will Not Add All Files ]
+4- 2- git reset name of File Or Folder
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Important Notes:
+----------------
+
+1- Create Repository For Every Project
+2- Create A New Branch For Every Feature Or Enhancenment
+3- No Need To Connect To Remote Repo When Working
+4- Anyone Can Push And Pull Depend On Permissions

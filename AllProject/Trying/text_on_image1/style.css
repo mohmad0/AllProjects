@@ -1,0 +1,70 @@
+body 
+{
+  background-color: #333;
+  font-family: Arial, Tahoma
+}
+
+.image 
+{
+  width: 713px;
+  height: 419px;
+  margin: 20px auto;
+  color: #FFF;
+  position: relative;
+}
+img
+{
+	transition: .3s;
+}
+
+.image:hover img
+{
+	opacity: .1
+}
+
+.image h3 ,
+.image span
+ {
+	position: absolute;
+	opacity: 0
+}
+
+.image h3 
+{
+	top: 10px;
+	left: 10px;
+}
+
+.image:hover h3
+{
+	opacity: 1;
+	transition-delay: .3s;
+	transition-duration: .5s
+}
+
+.image .date
+{
+	bottom: -36px;
+	left: 10px;
+	
+}
+
+.image:hover .date
+{
+	opacity: 1;
+	transition-delay: .5s;
+	transition-duration: .5s
+}
+
+.image .views 
+{
+	right: 10px;
+	bottom: -36px;
+}
+
+.image:hover .views 
+{
+	opacity: 1;
+	transition-delay: .7s;
+	transition-duration: .5s
+}

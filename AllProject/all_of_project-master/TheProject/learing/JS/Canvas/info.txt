@@ -1,0 +1,21 @@
+	Intro
+
+	Context_Filling_  Style
+
+	Gradient_Pattern
+
+	StrokeRect_Text
+
+	Create_Charts
+
+	Paths_Lines
+
+	Advanced_Path
+
+	Drawing_Circle
+
+	Shadow_Methods
+
+	Text_Align_Direction
+
+	Create_Smail_Face

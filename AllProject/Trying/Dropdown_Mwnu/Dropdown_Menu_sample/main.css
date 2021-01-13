@@ -1,0 +1,84 @@
+/* https://flatuicolors.com/ ===> for color */
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+.navigation {
+  width: 400px;
+  margin: 20px auto;
+  background-color: #596275;
+  height: 46px;
+  padding: 0 20px;
+  line-height: 15px;
+}
+
+.navigation > li {
+  color: #FFF;
+  padding: 15px 10px;
+  float: left
+}
+
+.navigation > li > a {
+  color: #FFF;
+  text-decoration: none
+}
+
+.navigation .menu {
+  position: relative;
+
+}
+
+
+
+.navigation .menu .submenu {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  width: 220px;
+  background-color: #f19066;
+  padding: 10px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+  opacity: 0;
+
+}
+
+.navigation .menu .submenu li {
+  padding: 10px;
+  transition: margin-left .5s ease-in-out;
+}
+
+.navigation .menu .submenu li:hover {
+   background-color: #596275;
+   margin-left: 5px;
+}
+
+.navigation .menu .submenu li a {
+  color: #777;
+  text-decoration: none
+}
+
+.navigation .menu .submenu li a:hover {
+  color: #f19066;
+ 
+}
+
+.navigation .menu .submenu:before {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #FFF;
+  content: "";
+  height: 0;
+  left: 32px;
+  position: absolute;
+  top: -6px;
+  width: 0;
+}
+
+.navigation .menu:hover .submenu {
+  opacity: 1;
+  transition: 1s;
+}

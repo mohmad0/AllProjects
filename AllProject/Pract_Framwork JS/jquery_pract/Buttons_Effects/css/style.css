@@ -1,0 +1,235 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+
+.scroll-to-top{
+	background-color: #333;
+	color: #fff;
+	display: inline-block;
+	padding: 0 5px 3px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+}
+/*End Global Rulez*/
+
+/*Start Header*/
+
+.navbar{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	color: #eee;
+	text-align: center;
+}
+
+.navbar li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.navbar li a{
+	
+	color: #eee;
+}
+
+/*End Header*/
+
+/*Start Section*/
+.block{
+	height: 1200px;
+	background-color: #eee;
+	margin-bottom: 20px;
+	padding: 30px 0;
+	text-align: center;
+}
+/*End Section*/
+
+/*Start Buttons Effects*/
+
+.botton-effect{
+	cursor: pointer;
+	display:inline-block;
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color: #fff;
+	width: 180px;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #928440;
+	border:none;
+	position: relative;
+	overflow: hidden;
+	outline: none;
+}
+
+.botton-effect.from-left,
+.botton-effect.from-right,
+.botton-effect.from-top,
+.botton-effect.from-bottom{
+	margin-bottom: 20px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////// [ Left & right ] */ 
+
+.botton-effect.from-left span:first-of-type,
+.botton-effect.from-right span:first-of-type{
+	position: absolute;
+	top: 0;
+	width: 0;
+	height: 100%;
+	display: block;
+}
+
+.botton-effect.from-left span:last-of-type,
+.botton-effect.from-right span:last-of-type{
+	position: relative;
+	z-index: 2;
+}
+
+.botton-effect.from-left span:first-of-type{
+	left: 0;
+	background-color: #CDDC39;
+}
+
+.botton-effect.from-right span:first-of-type{
+	right: 0;
+	background-color: #FFEB3B;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////  [ top & bottom ]*/
+
+.botton-effect.from-top span:first-of-type,
+.botton-effect.from-bottom span:first-of-type{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 0;
+	display: block;
+}
+
+
+.botton-effect.from-top span:last-of-type,
+.botton-effect.from-bottom span:last-of-type{
+	position: relative;
+	z-index: 2;
+}
+
+.botton-effect.from-top span:first-of-type{
+	top: 0;
+	background-color: #FFC107;
+}
+
+.botton-effect.from-bottom span:first-of-type{
+	bottom: 0;
+	background-color: #FF9800;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////// Border  [ left & right ]*/
+
+.botton-effect.border-left,
+.botton-effect.border-right{
+	margin-bottom: 20px;
+	border-radius: 0;
+	position: relative;
+	overflow: visible;
+}
+
+.botton-effect.border-left span:first-of-type,
+.botton-effect.border-right span:first-of-type{
+	position: absolute;
+	bottom: -3px;
+	top: auto;
+	display: block;
+	background-color: #FF9800;
+	width: 0;
+	height: 3px;
+
+}
+
+
+.botton-effect.border-left span:last-of-type,
+.botton-effect.border-right span:last-of-type{
+	position: relative;
+	z-index: 2;
+}
+
+.botton-effect.border-left span:first-of-type{
+
+	left: 0;
+}
+
+
+.botton-effect.border-right span:first-of-type{
+
+	right: 0;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////// Border  [ top & bottom ]*/
+
+.botton-effect.border-top,
+.botton-effect.border-bottom{
+	margin-bottom: 20px;
+	border-radius: 0;
+	position: relative;
+	overflow: visible;
+}
+
+.botton-effect.border-top span:first-of-type,
+.botton-effect.border-bottom span:first-of-type{
+	position: absolute;
+	display: block;
+	background-color: #FF9800;
+	width: 3px;
+	height: 0;
+}
+
+
+.botton-effect.border-top span:last-of-type,
+.botton-effect.border-bottom span:last-of-type{
+	position: relative;
+	z-index: 2;
+}
+
+
+.botton-effect.border-top span:first-of-type{
+
+	top: 0;
+	left: auto;
+	right: -3px;
+}
+
+
+.botton-effect.border-bottom span:first-of-type{
+
+	bottom: 0;
+	right: auto;
+	left: -3px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////// Border [ Bounce ]*/
+
+.bounce{
+	background-color: #a00220;
+	margin-top: 30px;
+	position: relative;
+}
+
+/*End Buttons Effects*/

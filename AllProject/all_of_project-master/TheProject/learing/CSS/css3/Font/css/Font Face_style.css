@@ -1,0 +1,35 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div
+{
+	font-family: 'mohmad gamal', Arial, Tahoma;
+}
+
+/*
+
+	TTF: 	True Type Font
+	EOT: 	Embedded Type Font
+	OTF: 	Open Type Font
+	WOFF: 	Web Open Font
+	WOFF2: 	Web Open Font 2
+	SVG: 	Scalable Vector Graphic
+
+*/
+
+
+@font-face 
+{
+	font-family: mohmad gamal;
+	src:url('fonts/mohmad gamal.ttf');
+	src:url('fonts/mohmad gamal.eot');
+	src:url('fonts/mohmad gamal.otf');
+	src:url('fonts/mohmad gamal.woff');
+	src:url('fonts/mohmad gamal.woff2');
+	src:url('fonts/mohmad gamal.svg');
+}

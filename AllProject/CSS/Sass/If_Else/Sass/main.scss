@@ -1,0 +1,21 @@
+$direction: rtl;
+$floatleft:left;
+$floatright:right;
+
+@if $direction == 'ltr' { // This Condition Will Be True When $direction = ltr
+	
+	$floatleft:left;
+	$floatright:right;
+
+} @else { // This Condition Will Be True When $direction = rtl
+	
+	$floatleft:right;
+	$floatright:left;
+}
+
+
+div
+{
+	float: $floatleft;
+	float: $floatright;
+}

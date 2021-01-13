@@ -1,0 +1,98 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+
+.scroll-to-top{
+	background-color: #333;
+	color: #fff;
+	display: inline-block;
+	padding: 0 5px 3px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+}
+/*End Global Rulez*/
+
+/*Start Header*/
+
+.navbar{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	color: #eee;
+	text-align: center;
+}
+
+.navbar li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.navbar li a{
+	
+	color: #eee;
+}
+
+/*End Header*/
+
+/*Start Section*/
+.block{
+	height: 1200px;
+	background-color: #eee;
+	margin-bottom: 20px;
+	padding: 30px 0;
+	text-align: center;
+}
+/*End Section*/
+
+/*Start Progress Bar*/
+.animated-progress{
+
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+	margin: 20px 10px;
+	border:1px solid #ccc;
+	background-color: #f6f6f6;
+	overflow: hidden;
+}
+
+.animated-progress span{
+	width: 0;
+	height: 100%;
+	display: block;
+	color: #fff;
+	line-height: 30px;
+	text-indent: 8px;
+	text-align: left;
+}
+
+.progress-orange span{
+	background-color: #FF9800;
+}
+
+.progress-yellow span{
+	background-color: #CDDC39;
+}
+
+.progress-blue span{
+	background-color: #673AB7;
+}
+
+.progress-pink span{
+	background-color: #E91E63;
+}
+/*End Progress Bar*/

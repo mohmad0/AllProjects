@@ -1,0 +1,32 @@
+/* Start Global */
+*
+{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+/* End Global */
+
+/* Start Main */
+
+main
+{
+	background:#eee ;
+	padding: 20px
+}
+
+main p
+{
+	text-align: center;
+}
+
+main p span
+{
+	font-weight: bold;
+	color: #666
+}
+
+/* End Main */

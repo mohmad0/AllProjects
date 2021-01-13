@@ -1,0 +1,40 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+/*End Global Rulez*/
+
+/*
+	===================================
+	== Multilingual Notes And Tricks ==
+	===================================
+
+
+	* Problems And Solutions Part 1
+	--- Don't Start With Arabic Design
+	--- Programmers Note: Don't Use Words Direct In Template But Add It In File Language.
+	--- Padding And Margin For Parent Better Than Child
+
+
+
+*/
+
+div{
+	background-color: #333;
+	color: #fff;
+	padding: 0 10px;
+}
+
+div h3{
+	margin: 0; /* Reset */
+}

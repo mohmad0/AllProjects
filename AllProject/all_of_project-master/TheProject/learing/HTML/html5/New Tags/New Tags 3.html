@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> New Tags - Progress, Meter </title>
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.min.js"></script> 
+		<![endif]-->
+		<link rel="stylesheet" href="css/style_New Tags 3.css" />
+	</head>
+	<body>
+
+		<section>
+			<p>This has content numer 01</p>
+			<div>
+				Design : <progress value="3" max="10"></progress> <br />
+				Coding : <progress value="7" max="10"></progress>
+			</div>
+		</section>
+
+		<hr />
+
+		<section>
+			<h3>Performans</h3>
+			<div> <!-- The optimum Is A Normal Ring 
+						
+						if value Is lower than or more than low && high && optimum ==> the is ==> yellow
+					-->
+				CPU : <meter  
+								min		="0" 
+								max 	="1" 
+								value 	="0.9" 
+								low 	="0.4" 
+								high 	="0.8" 
+								optimum ="0.7" ></meter>
+			</div>
+		</section>
+
+	</body>
+</html>

@@ -1,0 +1,5 @@
+sudo npm install parcel-bundler
+
+sudo npm install parcel
+
+sudo parcel 'Smooth Page Transitions'.html

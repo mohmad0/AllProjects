@@ -1,0 +1,68 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div
+{
+	width:200px ;
+	padding:10px ;
+	border:2px solid #443;
+	margin: 0
+}
+
+/*
+	Nth: Number th ( 4th , 5th , ... )
+
+	Nth(Number , formula , keyword[odd , even] )
+
+*/
+
+.Nth_Child1 div:nth-child( 4 ) /* this will start count from first to end &&& caption number [ 4 ]  */
+{
+	background-color: #eee
+}
+
+
+.Nth_Child2 div:nth-child(odd) /* this will start count from first to end  */
+{
+	background-color: #eee
+}
+
+
+.Nth_last_Child1 div:nth-last-child(8) /* this will start count from end to first &&& caption number [ 8]  */
+{
+	background-color: #445;
+	color: #fff;
+}
+
+.Nth_last_Child2 div:nth-last-child(even) /* this will start count from end to first */
+{
+	background-color: #445;
+	color: #fff;
+}
+
+.Nth_Of_Type1 div:nth-of-type(5) /* this will start count from first to end && caption number [8] has type div  */
+{
+	background-color: #eee
+}
+
+.Nth_Of_Type2 div:nth-of-type(odd) /* this will start count from first to end && caption has type div  */
+{
+	background-color: #eee
+}
+
+.Nth_last_Of_Type1 div:nth-last-of-type(9) /* this will start count from end to first && caption number [9] has type div */
+{
+	background-color: #447;
+	color: #fff;
+}
+
+.Nth_last_Of_Type2 div:nth-last-of-type(even) /* this will start count from end to first && caption has type div */
+{
+	background-color: #447;
+	color: #fff;
+}

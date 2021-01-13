@@ -1,0 +1,25 @@
+div
+{
+	width:200px ;
+	height:200px ;
+	padding:10px ;
+	margin:20px auto ;
+	background:#eee ;
+	border:1px solid #ccc ;
+
+
+	box-shadow: X | Y | Blur | Spread | Color | Inset, Outset ; /* Outset ==> is defulte && Blur ==> you can't put it negative value */
+
+	-webkit-box-shadow:-2px -2px 21px 1px #f00,
+	 					4px 1px 8px 1px #00f, 
+	 					10px 10px 8px #080;
+	-moz-box-shadow:-2px -2px 21px 1px #f00,
+					 4px 1px 8px 1px #00f,
+					 10px 10px 8px #080;
+	-o-box-shadow:-2px -2px 21px 1px #f00,
+					4px 1px 8px 1px #00f, 
+					10px 10px 8px #080;
+	box-shadow:-2px -2px 21px 1px #f00,
+				4px 1px 8px 1px #00f, 
+				10px 10px 8px #080
+}	

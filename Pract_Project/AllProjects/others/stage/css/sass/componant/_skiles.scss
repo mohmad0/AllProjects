@@ -1,0 +1,166 @@
+.skiles{
+	background:url('../image/piramed4.jpg') no-repeat center center fixed;
+	height:980px;
+	@media(max-width: 767px){
+		height: 1840px;
+	}
+	@include prefixer(background-size , conver , webkit moz o);
+	position:relative;
+	.overlay{
+		background-color:#0000009e;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		.row{
+			margin-top: 60px;
+			.animated-progress{
+				border-radius: 5px;
+				margin: 20px 10px;
+				border:1px solid #ccc;
+				background-color: #f6f6f6;
+				overflow: hidden;
+				height: 32px;
+				span{
+					width: 0;
+					height: 100%;
+					display: block;
+					color: #fff;
+					line-height: 30px;
+					text-indent: 8px;
+					text-align: left;
+				}
+				&.one {
+
+					span {
+						background-color: #ff7f50;
+					}
+				}
+				&.tow {
+
+					span {
+						background-color: #ff6348;
+					}
+				}
+				&.three {
+
+					span {
+						background-color: #ff6b81;
+					}
+				}
+				&.four {
+
+					span {
+						background-color: #ff4757;
+					}
+				}
+				&.five {
+
+					span {
+						background-color: #747d8c;
+					}
+				}
+				&.six {
+
+					span {
+						background-color: #57606f;
+					}
+				}
+				&.seven {
+
+					span {
+						background-color: #2f3542;
+					}
+				}
+				&.eight {
+
+					span {
+						background-color: #1e90ff;
+					}
+				}
+				&.nine {
+
+					span {
+						background-color: #2ed573;
+					}
+				}
+				&.ten {
+
+					span {
+						background-color: #574b90;
+					}
+				}
+				&.eleven {
+
+					span {
+						background-color: #786fa6;
+					}
+				}
+				&.twelve {
+
+					span {
+						background-color:#FF5722;
+					}
+				}
+				&.thirteen {
+
+					span {
+						background-color: #218c74;
+					}
+				}
+				&.fourteen {
+
+					span {
+						background-color: #33d9b2;
+					}
+				}
+				&.fifteen {
+
+					span {
+						background-color: #ccae62;
+					}
+				}
+				&.sixteen {
+
+					span {
+						background-color: #009688;
+					}
+				}
+				&.seventeenth {
+
+					span {
+						background-color: #227093;
+					}
+				}
+				&.eighteen {
+
+					span {
+						background-color: #cd6133;
+					}
+				}
+				&.nineteen {
+
+					width: 80% ;
+					float: left ;
+
+					span {
+						background-color: #b33939;
+					}
+
+				}
+				&.twenty {
+
+					width: 80% ;
+					float: right ;
+
+					span {
+						background-color: #40407a;
+					}
+
+				}
+
+			}
+		}
+	}
+}

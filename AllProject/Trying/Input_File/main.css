@@ -1,0 +1,38 @@
+.custom-select
+{
+	width: 400px;
+	height: 30px;
+	margin: 100px auto;
+	background-color: red;
+	color: #fff;
+	position: relative;
+}
+
+.custom-select:after
+{
+	content: 'Upload';
+	background-color: blue;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+	height: 100%;
+	padding: 0px 0 0 12px;
+	display: block;
+	z-index: 1;
+	
+}
+
+.custom-select span{position: absolute;z-index: 1}
+
+.custom-select input[type="file"]
+{
+	width: 100%;
+	height: 100%;
+	background-color: blue;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	z-index: 3;
+	cursor: pointer;
+}

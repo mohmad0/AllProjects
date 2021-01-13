@@ -1,0 +1,14 @@
+.div1 , .div2
+{
+	background:#eee ;
+	padding:10px ;
+	border:1px solid #ccc ;
+	font-family:Arial, Tahoma ;
+	width:300px ;  
+	word-wrap:break-word;  /* this will break the word if found ==>  [ Space ]  Or Not */
+}
+
+.div2
+{
+	white-space: normal; /* this will break the word if found ==>  [ Space ]  */
+}

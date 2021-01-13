@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> JSON </title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div class="show">
+		</div>
+		<script src="jquery-3.2.0.min.js"></script>
+		<script>
+			$(function (){
+
+				$.ajax({
+					// type: 'POST', Alias For Method => jquery Before 1.9.0
+					// cache: false, Cache The Request Defult Is True
+					// async: false, Asyncronous Or No
+					// timeout: 3000, Timeout For Request
+					// datatype: 'html', Data Expected From The Server Response Defult Is Intilgans Guess
+					// username: '', For Authentection
+					// password: '', For Authentection
+					// contentType: 'multipart/form-data', Content Type For The Request Defult is application/x-www-form-urlencoded
+					method:"POST", // Method Used To Request
+					url:"send.php", // URL To Send The Request Defult Is Current URL
+					data: {comments: "Hello Mohmad"}, // Data To Send With Request
+					beforeSend: function(xhr, status ){
+						// function To Run Before Request
+
+						// console.log( 'Before Send' ${xhr}); //XHR Object
+						console.log("Before Send");
+					},
+					success: function(data, status , xhr){
+						// function To Run When Request Success
+						console.log(data);
+						console.log(status);
+						console.log(xhr);
+						console.log("success");
+						$('.show').html(data);
+					},
+					error: function(xhr, status , error){
+						console.log(xhr); //XHR Object
+						console.log(status); // status Request
+						console.log(error); // Error Message
+						console.log("error");
+					},
+					complete: function(xhr, status ){
+						// function To Run When Request Is Complete
+						console.log(xhr); //XHR Object
+						console.log(status); // status Request
+						console.log("complete");
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

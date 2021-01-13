@@ -1,0 +1,51 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container
+{
+	width:400px ;
+	background:#eee ;
+	padding:10px ;
+	margin:100px auto ;
+	border:1px solid #ccc ;
+	height:200px ;
+
+}
+
+.translate
+{
+	background:#080 ;
+	color:#fff ;
+	text-align:center;
+	height:180px ;
+	
+}
+
+.translate:hover
+{	
+	-webkit-transform: translate(50px , 60px);
+	transform: translate(50px , 60px);
+}
+
+/*
+ 	translate(50px , 60px); ===> translate(x , y);
+
+    translate(50px , 60px); ==> move in ==> right 50px , move in ==> down 60px
+
+    translate(-50px , -60px); ==> move in ==> left 50px , move in ==> up 60px
+
+    translate(50px)  ==> this main move in right only
+
+    translate(-50px)  ==> this main move in left only
+
+    translateX(50px)  ==> this main move in right only
+
+    translateY(50px)  ==> this main move in up only
+
+
+*/

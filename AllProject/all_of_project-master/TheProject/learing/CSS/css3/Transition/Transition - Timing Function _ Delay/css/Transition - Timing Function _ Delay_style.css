@@ -1,0 +1,88 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div
+{
+	width: 700px
+}
+
+div p
+{
+	width:150px ;
+	margin-bottom:10px;
+	background-color:#f00 ;
+	padding: 10px;
+	color: #fff;
+	transition-property:width, background-color; /* defulte value ====> [all] */
+
+	transition-duration:1.5s ,  3s; 					/* defulte value ====> [ 0s ]> */
+  
+}
+
+div p:first-of-type
+{
+	transition-timing-function: ease;
+
+	transition-delay: .5s
+}
+
+div p:nth-of-type(2)
+{
+	transition-timing-function: linear;
+
+	transition-delay: 1s
+}
+
+div p:nth-of-type(3)
+{
+	transition-timing-function: ease-in;
+
+	transition-delay: 1.5s
+}
+
+div p:nth-of-type(4)
+{
+	transition-timing-function: ease-out;
+
+	transition-delay: 2s
+}
+
+div p:nth-of-type(5)
+{
+	transition-timing-function: ease-in-out;
+
+	transition-delay: 2.5s
+}
+
+div p:nth-of-type(6)
+{
+	transition-timing-function:steps(4 , start); /* this will begin fastar than end */
+
+	transition-delay: 3s
+}
+
+div p:last-of-type
+{
+	transition-timing-function:steps(4 , end);  /* this will begin lower than start */
+
+	transition-delay: 3.5s
+}
+
+div:hover p
+{
+	width: 300px;
+	background-color: #00f;
+}
+
+/* 
+
+	transition-timing-function ===> this is the shap of transition 
+
+	transition-delay   		   ===> this is time of begin
+
+*/

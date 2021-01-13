@@ -1,0 +1,22 @@
+jsonviwe for google	https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc/related?hl=ar
+
+
+object {}  you can access on it by [ . ] 
+
+Ex: myobject = { "name": "mohmad" , "age": 22 }
+
+myobject.name 
+"mohmad"
+
+myobject.age
+22
+
+array [] you can access on it by [index]
+
+Ex: myarray = ["mohmad" , "age"]
+
+myarray[0]
+"mohmad"
+
+myarray[1]
+"age"

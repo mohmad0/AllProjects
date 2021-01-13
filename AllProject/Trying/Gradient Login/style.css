@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #000;
+	font-family: sans-serif;
+}
+
+.container
+{
+	position: relative;
+	width: 450px;
+	min-height: 300px;
+	background-color: rgba(255,255,255,.05);
+	box-shadow: 0 5px 15px rgba(0,0,0,1);
+}
+
+.container:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.1);
+	pointer-events: none;
+}
+
+.container:after
+{
+	content: '';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	background-image: linear-gradient(45deg, #ff0047, #6eff00);
+	pointer-events: none;
+	animation: animbox 10s linear infinite;
+}
+
+@keyframes animbox
+{
+	0%
+	{
+		filter: blur(60px) hue-rotate(0deg);
+	}
+
+	100%
+	{
+		filter: blur(60px) hue-rotate(360deg);
+	}
+}
+
+.container .form
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 40px;
+	z-index: 1;
+}
+
+.container .form h2
+{
+	color: #fff;
+	font-size: 24px;
+}
+
+.container .form .inputBox
+{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.container .form .inputBox input
+{
+	width: 100%;
+	background-color: transparent;
+	border:none;
+	border-bottom: 2px solid #fff;
+	outline: none;
+	font-size: 18px;
+	color: #fff;
+	padding: 5px 0;
+	font-family: sans-serif, Tahoma;
+}
+
+::placeholder
+{
+	color: #999;
+}
+
+.container .form .inputBox input[type="submit"]
+{
+	background-color: #fff;
+	color: #000;
+	border:none;
+	font-weight: 900;
+	max-width: 100px;
+	cursor: pointer;
+}
+
+.container .form p
+{
+	color: #999;
+	margin-top: 20px;
+}
+
+.container .form p a
+{
+	color: #fff
+}

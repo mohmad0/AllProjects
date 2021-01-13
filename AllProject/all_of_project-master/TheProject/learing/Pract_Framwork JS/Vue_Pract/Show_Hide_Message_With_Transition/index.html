@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Scroll To Element</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<div id="mo-app" class="container">
+			<button @click="message = !message"> {{ message ? 'Hide Message' : 'Show Message' }} </button>
+			<transition name="bounce">
+				<div class="msg" v-if="message">This Is An Alert!</div>
+			</transition>
+		</div>
+		<script src="js/vue.js"></script>
+		<script src="js/axios.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js" integrity="sha256-bd8XIKzrtyJ1O5Sh3Xp3GiuMIzWC42ZekvrMMD4GxRg=" crossorigin="anonymous"></script> -->
+		<script src="js/main.js"></script>
+	</body>
+</html>

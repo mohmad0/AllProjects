@@ -1,0 +1,13 @@
+http response  https://developer.mozilla.org/ar/docs/Web/HTTP/Status
+
+] this is most error requests  and is found a lot of requests  
+
+	error 200 is mean succes and it is [important]
+
+	error 404 is mean file not found
+
+	error 500 is mean error in server
+
+	error 429 is mean too many requests 
+
+]

@@ -1,0 +1,111 @@
+@media (min-width: 992px) {
+  .header .logo {
+    float: right;
+    text-align: right;
+  }
+}
+.header .logo .the-toggler {
+  right: auto;
+  left: 15px;
+}
+@media (min-width: 992px) {
+  .header .navbar {
+    float: right;
+  }
+}
+.header .navbar li {
+  float: right;
+}
+@media (max-width: 767px) {
+  .header .navbar li {
+    text-align: right;
+  }
+}
+
+/*Start Services*/
+.services .service-box {
+  float: right;
+}
+@media (min-width: 992px) {
+  .services .service-box {
+    float: right;
+  }
+}
+
+/*End Services*/
+/*Start Player*/
+@media (min-width: 768px) {
+  .players .player-box {
+    float: right;
+  }
+}
+@media (min-width: 992px) {
+  .players .player-box {
+    float: right;
+    text-align: right;
+  }
+}
+
+/*End Player*/
+/* Start Lorem Ipsum */
+@media (max-width: 767px) {
+  .lorem-ipsum .lorem-box {
+    float: right;
+  }
+}
+@media (min-width: 768px) {
+  .lorem-ipsum .lorem-box {
+    float: right;
+  }
+}
+@media (min-width: 1200px) {
+  .lorem-ipsum .lorem-box {
+    float: right;
+  }
+}
+
+/* End Lorem Ipsum */
+.footer .footer-gallery, .footer .footer-info, .footer .footer-contact {
+  float: right;
+}
+@media (min-width: 768px) {
+  .footer .footer-gallery .img-box img {
+    float: right;
+  }
+}
+@media (min-width: 768px) {
+  .footer .footer-gallery .img-box .footer-text {
+    float: right;
+  }
+}
+.footer .copyright .copy-text, .footer .copyright .author {
+  float: right;
+}
+.footer .copyright .author {
+  text-align: left;
+}
+@media (max-width: 767px) {
+  .footer .copyright .author {
+    text-align: center;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #145473;
+}
+
+::-webkit-scrollbar-track {
+  background: #8aaab9;
+}
+
+body {
+  scrollbar-face-color: #145473;
+  scrollbar-track-color: #8aaab9;
+}
+
+/*# sourceMappingURL=website-rtl.css.map */

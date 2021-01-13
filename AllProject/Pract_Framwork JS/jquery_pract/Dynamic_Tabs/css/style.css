@@ -1,0 +1,153 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.scroll-to-top{
+	background-color: #333;
+	color: #fff;
+	display: inline-block;
+	padding: 0 5px 3px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+}
+/*End Global Rulez*/
+
+/*Start Header*/
+
+.navbar{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	color: #eee;
+	text-align: center;
+}
+
+.navbar li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.navbar li a{
+	
+	color: #eee;
+}
+
+/*End Header*/
+
+/*Start Section*/
+.block{
+	height: 1200px;
+	background-color: #eee;
+	margin-bottom: 20px;
+	padding: 30px 0;
+	text-align: center;
+}
+/*End Section*/
+
+/*Start Dynamic Tabs*/
+
+.container{
+	width: 800px;
+	margin: 30px auto;
+	padding: 20px;
+}
+
+.tabs-list li {
+	padding: 15px 30px;
+	background-color: #fff;
+	display: inline-block;
+	position: relative;
+	top: 1px;
+	cursor: pointer;
+	border:1px solid #ccc;
+	-webkit-transition: color .5s ease-in-out;
+	-moz-transition: color .5s ease-in-out;
+	-o-transition: color .5s ease-in-out;
+	transition: color .5s ease-in-out;
+}
+
+.tabs-list .active,
+.tabs-list li:hover{
+	color: #080; 
+}
+
+.tabs-list .active {
+	border-bottom: 1px solid #fff;
+	z-index: 2;
+}
+
+
+.content-list{
+	border:1px solid #ccc;
+	background-color: #fff;
+	position: relative;
+}
+
+.content-list > div{
+	padding: 20px;
+	min-height: 200px;
+}
+
+.content-list > div:not(:first-child){
+	display: none;
+}
+
+.switch-tabs{
+	padding: 10px;
+	background-color: #efefef;
+	float: left;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	color: #E91E63;
+	cursor: pointer;
+}
+
+.left-tabs{
+	overflow: hidden;
+}
+
+.left-tabs .tabs-list,
+.left-tabs .content-list{
+	float: left;
+}
+
+.left-tabs .tabs-list li{
+	display: block;
+	top: 0;
+	left: 1px;
+}
+
+.left-tabs .tabs-list .active {
+	border-bottom: 1px solid #aaa;
+	border-right: 1px solid #fff;
+}
+
+
+.left-tabs .content-list{
+	min-height: 300px;
+	width: calc(100% - 103px);
+}
+/*End Dynamic Tabs*/

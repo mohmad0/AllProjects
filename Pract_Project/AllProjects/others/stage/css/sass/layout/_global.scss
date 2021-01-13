@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding:0;
+	@include prefixer(box-sizing , border-box , webkit moz);
+}
+
+body{
+	background-image:linear-gradient(to left, #6F1E51, black) !important;
+}
+
+
+@include scrollbars(1em, #6F1E51);
+
+/* Start Our Framework */ 
+
+.fBold{
+	font-weight: bold;
+}
+
+.text-muted{
+	color: #080 !important;
+	font-size: 25px;
+	&.throughLine{
+		color:#F44336 !important;
+		font-size: 20px;
+	}
+}
+
+.throughLine{
+	text-decoration: line-through;
+}
+
+/* End Our Framework */ 

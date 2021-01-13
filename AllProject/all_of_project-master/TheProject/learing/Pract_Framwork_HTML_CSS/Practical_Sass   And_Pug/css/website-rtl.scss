@@ -1,0 +1,154 @@
+@import "sass/helpers/variables";
+
+$floatLeft:right;
+
+$floatRight:left;
+
+$textRight:left;
+
+$textLeft:right;
+
+.header{
+
+	.logo{
+
+		@media #{$minMedium} {
+			float: $floatLeft;
+			text-align: $textLeft;
+		}
+		.the-toggler
+		{
+			right: auto;
+			left: 15px;
+		}
+	}
+	.navbar{
+
+		@media #{$minMedium} {
+			float: $floatLeft;
+		}
+		li {
+			float: $floatLeft;
+			@media #{$maxMobile} {
+				text-align: $textLeft;
+			}
+		}
+	}
+}
+
+/*Start Services*/
+
+.services{
+
+	.service-box{
+		float: $floatLeft;
+		@media #{$minMedium} {
+			float: $floatLeft;
+
+		}
+	}
+
+}
+
+/*End Services*/
+
+/*Start Player*/
+
+.players{
+
+	.player-box{
+		@media #{$minSmalle} {
+			float: $floatLeft;
+		}
+		@media #{$minMedium} {
+			float: $floatLeft;
+			text-align: $textLeft;
+
+		}
+	}
+
+}
+
+/*End Player*/
+
+/* Start Lorem Ipsum */
+
+.lorem-ipsum{
+	.lorem-box{
+
+		@media #{$maxMobile} {
+			float: $floatLeft;
+		}
+		@media #{$minSmalle} {
+			float: $floatLeft;
+		}
+		@media #{$minLarg} {
+			float: $floatLeft;
+		}
+
+	}
+}
+
+
+
+/* End Lorem Ipsum */
+
+.footer{
+
+	.footer-gallery , .footer-info , .footer-contact{
+		float: $floatLeft;
+	}
+	.footer-gallery{
+
+		.img-box{
+
+			img{
+				@media #{$minSmalle} {
+					float: $floatLeft;
+				}
+			}
+			.footer-text{
+				@media #{$minSmalle} {
+					float: $floatLeft;
+				}
+
+			}
+		}
+	}
+
+	.copyright{
+		.copy-text,.author{
+			float: $floatLeft;
+		}
+		.author{
+			text-align: $textRight;
+			@media #{$maxMobile} {
+				text-align: center;
+			}
+		}
+	}
+}
+
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white, 50%)) {
+  ::-webkit-scrollbar {
+      width:  $size;
+      height: $size;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: $foreground-color;
+  }
+
+  ::-webkit-scrollbar-track {
+      background: $background-color;
+  }
+
+  // For Internet Explorer
+  body {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+
+@include scrollbars(.5em, #145473);
+

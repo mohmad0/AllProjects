@@ -1,0 +1,42 @@
+body
+{
+	background: #ddd;
+	height: 3000px;
+}
+body p 
+{
+	position: fixed; /* this will be stay in it palce && when scrol down it with in */
+	right:0;
+}
+.parent
+{
+	width: 900px;
+	background: #fff;
+	padding:10px ;
+	height:600px; 
+}
+.child
+{
+	width: 600px;
+	background: #efefef;
+	padding:10px ;
+	height:400px; 
+	position: relative; /* this will be taking his place in work flow && is parent for ==> position: absolute; */
+}
+.abs
+{
+	background:#f00 ;
+	color:#fff ;
+	padding:10px ;
+	position: absolute; /* this will be searching about ==>  position: relative; then do ==> [ top && right propirity ] */
+	top:10px ;
+	right:100px; 
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	position:static; this is defult value 
+
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
+
+*/ 

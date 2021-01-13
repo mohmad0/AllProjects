@@ -1,0 +1,82 @@
+$mainColor:red;
+$mainWidth:100%;
+$mainNum:4;
+$mainFontSize:20px;
+
+// Extend && Placeholder Selector
+
+.mainColor // This IS For Extend && This Is Will Showing In Document Page In Browser
+{
+	color: $mainColor;
+}
+
+%mainBackColor // This IS For Placeholder Selector  && This Is Will Not Showing In Document Page In Browser
+{
+	background-color: $mainColor;
+}
+
+
+div{
+	@extend .mainColor;
+	@extend %mainBackColor;
+	color: #fff;
+	font-weight: bold;
+	.class1
+	{
+		@extend .mainColor;
+		@extend %mainBackColor;
+		width: $mainWidth / $mainNum;
+
+		h1
+		{
+			@extend .mainColor;
+			@extend %mainBackColor;
+			font-size: $mainFontSize * 2;
+		}
+	}
+	.class2
+	{
+		@extend .mainColor;
+		@extend %mainBackColor;
+		width: $mainWidth / $mainNum;
+
+		h1
+		{
+			@extend .mainColor;
+			@extend %mainBackColor;
+			font-size: $mainFontSize + 5;
+		}
+	}
+	.class3
+	{
+		@extend .mainColor;
+		@extend %mainBackColor;
+		width: $mainWidth / $mainNum;
+
+		h1
+		{
+			@extend .mainColor;
+			@extend %mainBackColor;
+			font-size: $mainFontSize - 2;
+		}
+	}
+	.class4
+	{
+		@extend .mainColor;
+		@extend %mainBackColor;
+		font-size: 40px;
+		width: $mainWidth / $mainNum;
+
+		p{
+			line-height: 1.7;
+			color: #fff;
+			font-size: $mainFontSize / 2;
+
+			span
+			{
+				@extend .mainColor;
+				@extend %mainBackColor;
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body
+{
+	perspective: 600px  /* this is must be for ===> 3d moving */
+}
+
+img
+{
+	display: block;
+	margin: 100px auto;
+	transition: all 0.5s ease-in-out
+}
+
+
+img:hover
+{
+	transform: translate3d(100px , 100px , -400px);
+}
+
+/*
+	translate3d(X , Y , Z)
+
+	translateX(100px)
+
+	translateY(100px)
+
+	translateZ(300px) ==== translate3d(0 , 0 , 300px)
+
+
+	translateZ(300px) ===> this main the Element is Move Towords Me == 300px 
+
+
+	translateZ(-300px) ===> this main the Element is Move Far Me == -300px 
+	
+
+
+*/

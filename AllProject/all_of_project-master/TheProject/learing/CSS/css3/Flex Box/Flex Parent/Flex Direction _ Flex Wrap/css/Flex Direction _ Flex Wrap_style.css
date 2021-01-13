@@ -1,0 +1,49 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container
+{
+	width:800px ;
+	margin: 50px auto;
+	background-color:#eee ;
+	padding: 10px;
+	display: inline-flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+}
+
+.container div 
+{
+	background-color: #080;
+	color: #fff;
+	width: 400px;
+	height: 100px;
+	padding: 10px
+}
+
+/*
+	display: flex; 
+
+	display: inline-flex; ===> the next element will be after this div
+	
+	flex-direction:row; ==> this is defulte value 
+
+	flex-direction:row-reverse; ===> this will do reverse for his elemnt 
+
+	flex-direction:column; ===> this will split for his element of the div as column
+ 
+	flex-direction:column-reverse; ===> this will split for his element of the div as column but will make reverse for the element of the div
+
+	flex-wrap: nowrap; ==> this is defulte value 
+
+	flex-wrap: wrap; ==> this is will make wrap for the elemen of the div
+
+	flex-wrap: wrap-reverse; ==> this is will make wrap for the elemen of the div but will make reverse for the element of the div
+
+
+*/

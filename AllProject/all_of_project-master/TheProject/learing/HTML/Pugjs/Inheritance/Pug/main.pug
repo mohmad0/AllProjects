@@ -1,0 +1,25 @@
+//- The Files includes Are connected 
+include includes/mixin
+doctype
+html
+    head
+        meta(name="name" content="content")
+        meta(charset="utf-8")
+        block titlePage
+            title The Page
+        //- The Files includes Are connected 
+        include includes/style
+    body
+        block contentPage
+          .main
+              +skilList
+              //- #[] This ===> For I Put Element On It ==>[ <strong> , <b> , <span> , .... ] 
+              p I Love #[b(class="main" , id="main") Maongo] Hello Worlled
+              +skilList
+              +skilList
+              +skilList
+
+              //- This From Mixin With Argument
+              +features('Mohmad')
+              +features('Ali')
+              +features('Ahmed')

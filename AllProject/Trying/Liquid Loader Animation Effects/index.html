@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<!-- For internet explorar -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- First Mobile Meta -->
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Liquid Loader Animation Effects Using CSS & SVG</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="liquid-loader">
+			<span style="--i:1"></span>
+			<span style="--i:2"></span>
+			<span style="--i:3"></span>
+			<span style="--i:4"></span>
+			<span style="--i:5"></span>
+			<span style="--i:6"></span>
+			<span style="--i:7"></span>
+		</div>
+		<svg>
+			<filter id="gooey">
+				<feGaussianBlur in="SourceGraphic" stdDeviation="10"></feGaussianBlur>
+				<feColorMatrix values="
+					1 0 0 0 0
+					0 1 0 0 0
+					1 0 1 0 0
+					0 0 0 20 -10
+				"></feColorMatrix>
+			</filter>
+		</svg>
+		<script src="./jQuery3.js"></script>
+		<script>
+			$(function(){
+				
+				$('button , .dropdown-other ul li ').hover(function(){
+
+					$('ul').addClass('active');
+
+				},function(){
+
+					$('ul').removeClass('active');
+
+				});
+			})
+		</script>
+	</body>
+</html>

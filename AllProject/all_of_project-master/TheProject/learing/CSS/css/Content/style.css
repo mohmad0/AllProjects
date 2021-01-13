@@ -1,0 +1,17 @@
+div:after
+{
+	content:' hello mohmad gamal' ; /* this will adding after the words in line */
+	color: blue;
+	font-weight: bold;
+}
+div:before
+{
+	content:' hello mohmad gamal' ;  /* this will adding before the words in line */
+	color: green;
+	font-weight: bold;
+}
+div
+{
+	color: red;
+	
+}

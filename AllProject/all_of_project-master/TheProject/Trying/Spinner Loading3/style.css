@@ -1,0 +1,61 @@
+body
+{
+	background-color: #2b3a0e
+}
+
+.spinner
+{
+	margin: 200px auto;
+	position: relative;
+}
+
+.spinner .circle
+{
+	
+	border-radius: 50%;
+	border: 3px solid transparent;
+	animation:  rotate 3s linear infinite;
+	position: absolute;
+}
+
+.spinner .circle.one
+{
+	width:50px ;
+	height:50px ;
+	top: 50px;
+	left: 50%;
+	border-top-color:#fff116;
+	animation-duration: .5s
+}
+
+.spinner .circle.tow
+{
+	width:75px ;
+	height:75px ;
+	top: 38px;
+	left: 49%;
+	border-top-color:#fff456;
+	animation-duration: .75s
+}
+
+.spinner .circle.three
+{
+	width:100px ;
+	height:100px ;
+	top: 25px;
+	left: 48%;
+	border-top-color:#fff;
+	animation-duration: 1s
+}
+
+@keyframes rotate 
+{
+	from
+	{
+		transform: rotate(0deg);
+	}
+	to
+	{
+		transform: rotate(360deg);
+	}
+}

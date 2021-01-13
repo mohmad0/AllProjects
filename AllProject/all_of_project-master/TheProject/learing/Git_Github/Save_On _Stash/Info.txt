@@ -1,0 +1,34 @@
+
+
+Words You Will Hear:
+--------------------
+1- echo "Hello World" > index.html
+2- git add index.html
+3- git status
+4- git stash ==> This Will Save The Files In Box With Auto Message On This Box
+5- git stash list ==> This Will Show All Files In Stash
+6- git stash pop  ==> This Will Get The Last File From Stash Into Stagen Area [ git add Area ] && Will Be Removed This File From Stash
+7- git stash pop stash@{0 or 1 or 2 or ...}  ==> This Will Get The stash@{0 or 1 or 2 or ...} File From Stash Into Stagen Area [ git add Area ] && Will Be Removed This stash@{0 or 1 or 2 or ...} File From Stash
+
+////////////////////////////////////////////////////////////////////////////////
+
+8-  git stash save 'Box Has HTMl Files' ==> This Will Save The Files In Box With 'Box Has HTMl Files' Message On This Box
+9-  git stash apply ==> This Will Get Copy Only Last File From Stash Into Stagen Area [ git add Area ] && Will Be Not Removed The File From Stash
+10- git stash apply stash@{0 or 1 or 2 or ...}  ==> This Will Get Copy Only The stash@{0 or 1 or 2 or ...} File From Stash Into Stagen Area [ git add Area ] && Will Be Not Removed This stash@{0 or 1 or 2 or ...} File From Stash
+11- git stash drop ==> This Will Delete The Last Stash
+12- git stash drop stash@{0 or 1 or 2 or ...} ==> This Will Delete The stash@{0 or 1 or 2 or ...} Stash
+13- git stash show ==> This Will Show The Things From The Last Stash
+14- git stash show stash@{0 or 1 or 2 or ...} ==> This Will Show The Things From The stash@{0 or 1 or 2 or ...} Stash
+
+
+15- git stash clear ==> This Will Remove All Stashs 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Important Notes:
+----------------
+
+1- Create Repository For Every Project
+2- Create A New Branch For Every Feature Or Enhancenment
+3- No Need To Connect To Remote Repo When Working
+4- Anyone Can Push And Pull Depend On Permissions

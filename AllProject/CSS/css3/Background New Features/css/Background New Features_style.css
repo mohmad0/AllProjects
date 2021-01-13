@@ -1,0 +1,49 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div
+{
+	width:500px;
+	height: 600px;
+	color:#fff;
+	padding:50px ;
+	border:10px dotted #f00 ;
+	background:url('../mohmad.jpg');
+	background-size:cover; /* this is favarable */
+	background-clip:content-box;
+	background-repeat:no-repeat; 
+}
+
+/*
+	background-size:width height;
+
+	background-size:100px 100px;
+
+	background-size:60% 70%;
+
+	background-size:contain;
+
+	background-size:cover;
+
+	/////////////////////////////////////
+
+	background-origin:content-box; 
+
+	background-origin:padding-box;
+
+	background-origin:border-box;
+
+	////////////////////////////////////
+
+	background-clip:content-box;
+
+	background-clip:padding-box;
+
+	background-clip:border-box;
+
+*/

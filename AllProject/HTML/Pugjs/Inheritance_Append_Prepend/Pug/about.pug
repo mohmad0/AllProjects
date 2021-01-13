@@ -1,0 +1,25 @@
+//- This Will Inheratance All Main Page HTML
+extends main
+
+//- This Will Modifid On Title In About HTML Page
+block titlePage
+    title about us
+
+
+//- This Will Take Copy All Links From main HTML Page And Adding On It After All Links
+append linkPage
+    //- This Will Include All Styles
+    link(rel="stylesheet", href="style.css")
+
+//- This Will Take Copy All Links From main HTML Page And Adding On It Before All Links
+block prepend linkPage
+    //- This Will Include All Styles
+    link(rel="stylesheet", href="font-awesome.css")
+
+
+//- This Will Modifid On Content In About HTML Page
+block contentPage
+    .main
+        .container
+            p This Page From Main
+    

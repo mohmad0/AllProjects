@@ -1,0 +1,51 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+/*End Global Rulez*/
+
+/*
+	===================================
+	== Multilingual Notes And Tricks ==
+	===================================
+
+	* Properties You Need To Focus On It
+	--- Box-Shadow
+	--- Float
+	--- Transform: Rotate
+	--- Text-Align
+	--- Position
+
+*/
+
+
+/* Start Header */
+
+p{
+	text-align: start;
+}
+
+.parent {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
+
+.parent .child{
+	background-color: #ddd;
+	margin:20px auto;
+	width: 300px;
+	height: 100px;
+	box-shadow: 10px 0 10px #ccc;
+	transform: rotate(20deg);
+}

@@ -1,0 +1,12 @@
+.parent {
+	left: auto;
+	right: 10px;
+}
+
+
+
+
+.parent .child{
+	box-shadow: -10px 0 10px #ccc;
+	transform: rotate(-20deg);
+}

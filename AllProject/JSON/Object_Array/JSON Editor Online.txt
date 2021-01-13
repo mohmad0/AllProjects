@@ -1,0 +1,7 @@
+JSON Editor Online   https://jsoneditoronline.org/#left=local.livuda&right=local.gobowa
+
+{ "key": "value" } this is object
+
+value is number or string or null or boolean
+
+[] this is array

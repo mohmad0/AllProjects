@@ -1,0 +1,44 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+/*End Global Rulez*/
+
+/*
+	===================================
+	== Multilingual Notes And Tricks ==
+	===================================
+
+	* Problems And Solutions Part 4
+	--- Don't Add Width If It Is Not Must
+	--- Don't Destroy Nesting When Creating RTL File
+	--- Don't Use Element That Need To Change Like Arrows. But Use Pseudo Elements.
+
+*/
+
+
+/* Start Header */
+
+.parent span{
+	background-color: red;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+}
+
+.parent span:after{
+	font-family: "FontAwesome";
+	content: "\f053"
+}
+

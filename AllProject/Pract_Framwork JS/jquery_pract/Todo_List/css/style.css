@@ -1,0 +1,93 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+
+.scroll-to-top{
+	background-color: #333;
+	color: #fff;
+	display: inline-block;
+	padding: 0 5px 3px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+}
+/*End Global Rulez*/
+
+/*Start Header*/
+
+.navbar{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	color: #eee;
+	text-align: center;
+}
+
+.navbar li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.navbar li a{
+	
+	color: #eee;
+}
+
+/*End Header*/
+
+/*Start Section*/
+.block{
+	height: 1200px;
+	background-color: #eee;
+	margin-bottom: 20px;
+	padding: 30px 0;
+	text-align: center;
+}
+/*End Section*/
+
+/*Start ToDo List*/
+.todo-list{
+	background-color: #fff;
+    margin: 20px auto;
+    width: 400px;
+    border:3px solid #fff;
+    text-align: left;
+}
+
+.todo-list h3{
+	background-color: #EFEFEF;
+    margin:0;
+    padding: 15px;
+    border-bottom: 2px solid #969696;
+}
+
+.tasks{
+	list-style: none;
+}
+
+.tasks li{
+	padding: 15px 20px;
+	border-bottom: 1px dashed #ccc;
+	color: #484848;
+	cursor: pointer;
+}
+
+.add-task .task-input{
+	padding: 15px 20px;
+	border:none;
+	width: 100%;
+}
+/*End ToDo List*/

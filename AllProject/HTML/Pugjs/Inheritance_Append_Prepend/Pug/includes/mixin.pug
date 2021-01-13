@@ -1,0 +1,15 @@
+//- The Files includes Are connected 
+//- This IS Normal ===> mixin
+mixin skilList
+    ul(class="main" , id="main")
+        li PHP
+        li CSS
+        li HTML
+        li Jaascript #{myClass1}
+        li Jaascript #{myClass2}
+
+
+//- This Mixin With Argument
+mixin features(feat)
+    div(class="main" , id="main")= feat
+    

@@ -1,0 +1,51 @@
+Server  +  User
+
+The Data In Server As String
+
+The Data In User As Object
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+when i get data from server it must be convert to object like that :
+
+myJsonObject is data from server and it is string
+
+myJsObject convert myJsonObject to object
+
+-------------------------------------------------------------------
+
+let myJsonObject = '{"username" : "mohmad" , "age" : 22}';
+
+let myJsObject = JSON.parse(myJsonObject);
+
+-------------------------------------------------------------------
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+when i send data to server i send it as string not object like that :
+
+myJsObject is data from User and it is object
+
+myJsonObject convert myJsObject  to string
+
+-------------------------------------------------------------------
+
+let myJsObject = {username : "mohmad" , age : 22};
+
+
+let myJsonObject = JSON.stringify(myJsObject);
+
+-------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+

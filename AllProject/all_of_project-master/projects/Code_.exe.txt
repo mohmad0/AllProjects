@@ -1,0 +1,3 @@
+pyuic5.exe -x main.ui -o main.py
+
+pyinstaller --windowed -F index.py

@@ -1,0 +1,159 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+
+.scroll-to-top{
+	background-color: #333;
+	color: #fff;
+	display: inline-block;
+	padding: 0 5px 3px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+}
+/*End Global Rulez*/
+
+/*Start Header*/
+
+.navbar{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	color: #eee;
+	text-align: center;
+}
+
+.navbar li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.navbar li a{
+	
+	color: #eee;
+}
+
+/*End Header*/
+
+/*Start Section*/
+.block{
+	height: 1200px;
+	background-color: #eee;
+	margin-bottom: 20px;
+	padding: 30px 0;
+	text-align: center;
+}
+/*End Section*/
+
+/*Start Grid/List Products*/
+.items{
+	width: 800px;
+	margin: 30px auto;
+	overflow: hidden;
+	text-align: left;
+}
+
+.items .view-option{
+
+	overflow: hidden;
+	padding: 10px;
+}
+
+.items .view-option i{
+
+	float: right;
+	cursor: pointer;
+}
+
+.items .view-option i.active{
+
+	color: #E91E63;
+}
+
+.items.grid-view .item{  /* Grid View */
+	width: 49%;
+	float: left;
+	background-color: #fff;
+	border:1px solid #ccc;
+	padding: 10px;
+}
+
+.items.grid-view .item.first{
+	margin-right: 1%;
+}
+
+.items.grid-view .item .date{
+	display: block;
+	color: #888;
+	font-size: 12px;
+	margin:5px 0;
+}
+
+.items.grid-view .item i{
+	display: block;
+	padding: 10px;
+	background-color: #eee;
+	margin:10px 0;
+	cursor: pointer;
+}
+
+.items.grid-view .item .desc{
+	padding: 10px;
+	display: none;
+}
+
+
+
+
+
+.items.list-view .item{ /* List View */
+	background-color: #fff;
+	border:1px solid #ccc;
+	padding: 10px;
+	position: relative;
+	height: 112px;
+	margin-bottom: 20px;
+}
+
+.items.list-view .item h3{
+	margin-top: 15px;
+	margin-left: 110px;
+}
+
+.items.list-view .item .date{
+	display: block;
+	color: #888;
+	font-size: 12px;
+	margin-top: 15px;
+	margin-left: 110px;
+}
+
+.items.list-view .item img{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.items.list-view .item i{
+	display: none;
+}
+
+.items.list-view .item .desc{
+	padding: 10px;
+	margin-left: 100px;
+}
+
+/*End Grid/List Products*/

@@ -1,0 +1,33 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+
+.offer{
+    width: 400px;
+    min-height: 150px;
+    background-color: #eee;
+    text-align: center;
+    margin: 300px auto;
+    position: relative;
+    padding: 20px;
+}
+
+.offer img {
+    max-width: 100%;
+    position: absolute;
+    top: -230px;
+    left: 0;
+}
+/*End Global Rulez*/
+

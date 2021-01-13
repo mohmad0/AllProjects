@@ -1,0 +1,21 @@
+welcome in the Even-Odd Game
+please Enter A Number ... And I Will Tell You if it Even or Odd
+if you Wanna Close the Game Enter X 
+
+while loop 
+input()
+if number == x
+ closing the game
+thanks....
+
+try
+numder => int
+if number % 2 == 0
+Even Number
+else
+odd number
+except ValueError
+Please Enter A Valid Number
+----------------
+
+

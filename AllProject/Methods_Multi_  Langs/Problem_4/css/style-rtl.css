@@ -1,0 +1,4 @@
+.parent span:after{
+	font-family: "FontAwesome";
+	content: "\f054"
+}

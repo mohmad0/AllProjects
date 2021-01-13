@@ -1,0 +1,60 @@
+:root
+{
+	--main-color-text:#080;
+
+	--main-color-back:#080;
+}
+
+
+.switch-color-text,.switch-color-back
+{
+	list-style: none;
+	padding: 0;
+	margin: 20px
+}
+
+.switch-color-text li,.switch-color-back li 
+{
+	display: inline-block;
+	width:20px ;
+	height: 20px;
+	cursor: pointer;
+
+}
+
+.switch-color-text li:first-child,.switch-color-back li:first-child
+{
+	background-color: #386
+}
+
+.switch-color-text li:nth-child(2),.switch-color-back li:nth-child(2)
+{
+	background-color: #987
+}
+
+.switch-color-text li:nth-child(3),.switch-color-back li:nth-child(3)
+{
+	background-color: #576
+}
+
+.switch-color-text li:nth-child(4),.switch-color-back li:nth-child(4)
+{
+	background-color: #198
+}
+
+.switch-color-text li:last-child,.switch-color-back li:last-child
+{
+	background-color: #287
+}
+
+.main h2 
+{
+	color: var(--main-color-text);
+}
+
+.main .content 
+{
+	background-color: var(--main-color-back);
+	color:#fff ;
+	padding: 20px
+}

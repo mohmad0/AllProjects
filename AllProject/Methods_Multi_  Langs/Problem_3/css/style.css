@@ -1,0 +1,63 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+/*End Global Rulez*/
+
+/*
+	===================================
+	== Multilingual Notes And Tricks ==
+	===================================
+
+	* Problems And Solutions Part 3
+	--- Don't Ever Forget Comments And Ordering Of Elements.
+	--- Use Inline-Block As Alternate Of Float If You Don't Need Float.
+	--- RTL File Is For Direction Only.
+	--- RTL File Must Be After Style File
+
+*/
+
+
+/* Start Header */
+
+.header{
+
+}
+
+
+.header h3{
+	
+}
+
+
+.header p{
+	
+}
+
+.parent .child{
+	background-color: #ddd;
+	width: 25%;
+	height: 100px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+
+.parent .tag{
+	background-color: #ddd;
+	height: 50px;
+	padding: 10px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	display: inline-block;
+}

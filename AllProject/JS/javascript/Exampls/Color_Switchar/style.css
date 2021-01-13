@@ -1,0 +1,162 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: Arial, Tahoma;
+	font-size: 20pxl
+}
+
+.container
+{
+	margin: 20px auto;
+    width: 1200px;
+}
+
+.container .color-switcher
+{
+    list-style:none;
+    margin-bottom: 20px;
+    text-align:center;
+}
+
+.container .color-switcher li
+{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.container .color-switcher li:first-child
+{
+    background-color: #eb4d4b;
+}
+.container .color-switcher li:nth-of-type(2)
+{
+    background-color: #6ab04c;
+}
+.container .color-switcher li:nth-of-type(3)
+{
+    background-color: #130f40;
+}
+.container .color-switcher li:nth-of-type(4)
+{
+    background-color: #f9ca24;
+}
+.container .color-switcher li:nth-of-type(5)
+{
+    background-color: #be2edd;
+}
+.container .color-switcher li:nth-of-type(6)
+{
+    background-color: #f0932b;
+}
+.container h3
+{
+    color: #c0392b;
+}
+.container div
+{
+    background-color: #c0392b;
+    color: #fff;
+    padding: 20px;
+}
+
+/* ////////////////////// 		Change Color 		////////////////////// */
+
+.red .container h3
+{
+    color: #eb4d4b;
+}
+.red .container div
+{
+    background-color: #eb4d4b;
+    color: #fff;
+    padding: 20px;
+}
+
+/* ////////////////////// 		Change Color 		////////////////////// */
+
+
+/* ////////////////////// 		Change Color 		////////////////////// */
+
+.green .container h3
+{
+    color: #6ab04c;
+}
+.green .container div
+{
+    background-color: #6ab04c;
+    color: #fff;
+    padding: 20px;
+}
+
+/* ////////////////////// 		Change Color 		////////////////////// */
+
+
+/* ////////////////////// 		Change Color 		////////////////////// */
+
+.blue .container h3
+{
+    color: #130f40;
+}
+.blue .container div
+{
+    background-color: #130f40;
+    color: #fff;
+    padding: 20px;
+}
+
+/* ////////////////////// 		Change Color 		////////////////////// */
+
+
+/* ////////////////////// 		Change Color 		////////////////////// */
+
+.yellow .container h3
+{
+    color: #f9ca24;
+}
+.yellow .container div
+{
+    background-color: #f9ca24;
+    color: #fff;
+    padding: 20px;
+}
+
+/* ////////////////////// 		Change Color 		////////////////////// */
+
+
+/* ////////////////////// 		Change Color 		////////////////////// */
+
+.pink .container h3
+{
+    color: #be2edd;
+}
+.pink .container div
+{
+    background-color: #be2edd;
+    color: #fff;
+    padding: 20px;
+}
+
+/* ////////////////////// 		Change Color 		////////////////////// */
+
+
+/* ////////////////////// 		Change Color 		////////////////////// */
+
+.orange .container h3
+{
+    color: #f0932b;
+}
+.orange .container div
+{
+    background-color: #f0932b;
+    color: #fff;
+    padding: 20px;
+}
+
+/* ////////////////////// 		Change Color 		////////////////////// */

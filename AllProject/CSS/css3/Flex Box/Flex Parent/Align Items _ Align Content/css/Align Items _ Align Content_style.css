@@ -1,0 +1,66 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container
+{
+	width:180px ;
+	height: 500px;
+	margin: 50px auto;
+	background-color:#eee ;
+	padding: 10px;
+	display: inline-flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	align-content:spa ;
+
+	justify-content: flex-start;
+
+}
+
+.container div 
+{
+	color: #fff;
+	width: 180px;
+	height: 100px;
+	padding: 10px
+}
+
+.container div:first-of-type
+{
+	background-color: #080;
+}
+
+.container div:nth-of-type(2)
+{
+	background-color: #f00;
+}
+
+.container div:last-of-type
+{
+	background-color: #00f;
+}
+
+/*
+	align-items: flex-start; 		===> this equel justify-content: flex-start; but by height not width
+
+	align-items: flex-end;  		===> this equel justify-content: flex-end; but by height not width
+
+	align-items: center;  	 		===> this equel justify-content: center; but by height not width
+
+	align-content: flex-start;  	===> this equel justify-content: flex-start; but by height not width but he take width from contint of the div
+
+	align-content: flex-end;		===> this equel justify-content: flex-end; but by height not width but he take width from contint of the div
+
+	align-content: center;			===> this equel justify-content: center; but by height not width but he take width from contint of the div
+
+	align-content: space-around; 	===> this equel justify-content: space-around; but by height not width but he take width from contint of the div
+
+	align-content: space-between;	===> this equel justify-content: space-between; but by height not width but he take width from contint of the div
+	
+
+*/

@@ -1,0 +1,35 @@
+$mainColor : #353;
+
+/*
+
+	For Convert ==>[ Sass ] To [ CSS ] Files From Terminal Found ==> 2 Method:
+
+	Method 1 ==> In This Method The Terminal Will Be Converting Wihtout Watching And You Will Do This All Time [ Unfevarable ]
+		
+		sass [path sass file]:[path output css file]
+
+			EX: sass /home/mohmad/Downloads/all_of_project/TheProject/learing/Sass/Intro/Sass/ /home/mohmad/Downloads/all_of_project/TheProject/learing/Sass/Intro
+
+
+	Method 2 ==> In This Method The Terminal Will Be Converting With Watching And You Not Need To Do This All Time [ fevarable ]
+
+		sass --watch [path sass file]:[path output css file] 
+
+			EX: sass --watch /home/mohmad/Downloads/all_of_project/TheProject/learing/Sass/Intro/Sass/:/home/mohmad/Downloads/all_of_project/TheProject/learing/Sass/Intro
+
+			And Press ==> [ ctrl + s ] To Converting
+
+
+*/
+
+.mohmad
+{
+	color: $mainColor;
+	font-size: 30px;
+}
+.ali
+{
+	color: $mainColor;
+	font-size: 30px;
+	font-weight: bold;
+}

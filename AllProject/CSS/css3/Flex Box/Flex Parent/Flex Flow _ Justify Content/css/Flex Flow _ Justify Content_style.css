@@ -1,0 +1,60 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container
+{
+	width:800px ;
+	margin: 50px auto;
+	background-color:#eee ;
+	padding: 10px;
+	display: inline-flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	justify-content: space-around;
+
+}
+
+.container div 
+{
+	color: #fff;
+	width: 200px;
+	height: 100px;
+	padding: 10px
+}
+
+.container div:first-of-type
+{
+	background-color: #080;
+}
+
+.container div:nth-of-type(2)
+{
+	background-color: #f00;
+}
+
+.container div:last-of-type
+{
+	background-color: #00f;
+}
+
+/*	
+	flex-flow: Flex Direction, Flex Wrap; ==> this is shout code for them
+
+	flex-flow: row nowrap; 
+
+	justify-content: center; 		===> will put all elements in center of the div
+
+	justify-content: space-between; ===> will adding equal space between the elements in this div
+
+	justify-content: space-around;  ===> will adding equal space after && befour the elements in this div
+
+	justify-content: flex-start; 	===> will do follow up for the start element for the all elements
+
+	justify-content: flex-end; 	===> will do follow up for the end element for the all elements
+
+*/

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Scroll To Element</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="mo-app" class="container">
+			<div class="grad-box" :style="{backgroundImage: 'linear-gradient('+ direction +' , '+ colorOne +' , '+ colorTow +')'}">Gradient Preview</div>
+			<form action="">
+				<div class="form-group">
+					<label for="">Direction</label>
+					<select v-model="direction">
+						<option value="to  left">to left</option>
+						<option value="to right">to right</option>
+						<option value="to top">to top</option>
+						<option value="to bottom">to bottom</option>
+					</select>
+				</div>
+
+				<span class="separator">|</span>
+
+				<div class="form-group">
+					<label for="">Color Stop One</label>
+					<input type="color" name="themeOne" v-model="colorOne">
+				</div>
+
+				<span class="separator">|</span>
+
+				<div class="form-group">
+					<label for="">Color Stop Tow</label>
+					<input type="color" name="themeTow" v-model="colorTow">
+				</div>
+			</form>
+			<div class="result">
+				<span>CSS Code:</span> background-image: linear-gradient({{ direction }}, {{ colorOne }}, {{colorTow}});
+			</div>
+			<div class="syntax">
+				<span>Syntax:</span> background-image: linear-gradient(direction, color-step1, color-step2, ...);
+			</div>
+		</div>
+		<script src="js/vue.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

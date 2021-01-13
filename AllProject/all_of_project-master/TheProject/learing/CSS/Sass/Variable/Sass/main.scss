@@ -1,0 +1,18 @@
+$mainColor:red;
+$mainColorBack:#335;
+$mainFontSize:30;
+
+.class1
+{
+	color: $mainColor;
+	background-color: $mainColorBack;
+	font-size: $mainFontSize;
+}
+
+.class1
+{
+	border:2px solid $mainColor;
+	outline:2px solid $mainColorBack;
+	font-size: $mainFontSize;
+	
+}

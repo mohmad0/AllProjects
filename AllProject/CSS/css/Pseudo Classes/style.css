@@ -1,0 +1,32 @@
+.main p:first-letter /* this will be effect on first-letter in any p in the main class */
+{
+	font-size: 40px;
+	color: red;
+	border:2px solid green;
+}
+.main p:first-line  /* this will be effect on first-line in any p in the main class */
+{
+	font-weight: bold;
+	color: blue;
+}
+
+.second p:first-child  /* this will be effect on only p is first-child In second class */
+{
+	border:5px solid green;
+	color: #fff;
+	background: #000
+}
+
+.third:after  /* this will be effect on after the content in third class*/
+{
+	content: ' hello from CSS';
+	color:red;
+	font-weight: bold;
+}
+
+.third:before  /* this will be effect on before the content in third class*/
+{
+	content: 'hello from CSS ';
+	color:blue;
+	font-weight: bold;
+}

@@ -1,0 +1,47 @@
+// first Import:
+
+// 1- variables
+// 2- mixins
+// 3- functions
+
+
+@import "sass/helpers/variables";
+
+@import "sass/helpers/mixins";
+
+@import "sass/helpers/functions";
+
+@import "sass/layout/grid"; 
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+// second Import:
+
+// 1- header
+// 2- footer
+
+@import "sass/layout/header"; // First Of Page
+
+
+@import "sass/pages/globalpages";
+
+
+
+@import "sass/pages/homepage";
+
+@import "sass/components/buttons";
+
+@import "sass/components/headings";
+
+
+
+
+
+
+
+
+
+
+
+@import "sass/layout/footer"; // Last Of Page
+

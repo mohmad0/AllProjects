@@ -1,0 +1,52 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+    height: 4000px;
+}
+
+.container{
+    font:16px/200% Arial,Tahoma;
+    position: relative;
+}
+
+.container .fa-chevron-up{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 25px;
+    background-color: #777;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    -o-opacity: .5;
+    opacity: .5;
+    -webkit-transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -o-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+    z-index: 9999;
+    display: none;
+}
+
+.container .fa-chevron-up:hover{
+
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -o-opacity: 1;
+    opacity: 1;
+}
+
+/*End Global Rulez*/
+

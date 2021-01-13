@@ -1,0 +1,32 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:not(.test)
+{
+	color: blue
+}
+
+section div:first-child
+{
+	color: #445
+}
+
+section div:last-child
+{
+	color: green
+}
+
+section p:first-Of-Type
+{
+	color: brown
+}
+
+section p:last-Of-Type
+{
+	color: yellow
+}

@@ -1,0 +1,61 @@
+d	Add_Active_Class
+
+	Add_Active_Class_On_Scroll
+
+	Add_Astrisk_On_Field
+
+	Auto_Change_Content
+
+	Auto_Change_Direction_Input_Feild
+
+	Buttons_Effects
+
+	Calculate_Padding_Body
+
+	Change_Theme_Color
+
+	Convert_Input_Value_To_Tag
+
+	Create_img_Slider
+
+	Create_Popup
+
+	Create_Progress
+	
+	Create_Same_Text
+
+	Create_Shuffle_Card
+
+	Create_Warning
+
+	Custom_Input_File
+
+	Detect_Unicode
+
+	Dynamic_Tabs
+
+	Email_Suggest_Box
+
+	Error_Message
+
+	Fixed_Menu
+
+	Function_To_Trim_Text
+
+	Hide_Show_Placeholder
+
+	Price_Table
+
+	Scroll_To_Element
+
+	Scroll_To_Top_Button
+
+	Show_Error_Message_In_Form
+
+	Todo_List
+
+	Toggel_Product
+
+	Toggle_List
+
+	Type_Wright

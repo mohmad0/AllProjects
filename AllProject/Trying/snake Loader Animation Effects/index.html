@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<!-- For internet explorar -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- First Mobile Meta -->
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Liquid Loader Animation Effects Using CSS & SVG</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="snake-loader">
+			<span style="--i:1">M</span>
+			<span style="--i:2">c</span>
+			<span style="--i:3">D</span>
+			<span style="--i:4">o</span>
+			<span style="--i:5">n</span>
+			<span style="--i:6">a</span>
+			<span style="--i:7">l</span>
+			<span style="--i:8">d</span>
+			<span style="--i:9">'</span>
+			<span style="--i:10">s</span>
+		</div>
+
+		<script src="./jQuery3.js"></script>
+		<script>
+			$(function(){
+				
+				$('button , .dropdown-other ul li ').hover(function(){
+
+					$('ul').addClass('active');
+
+				},function(){
+
+					$('ul').removeClass('active');
+
+				});
+			})
+		</script>
+	</body>
+</html>

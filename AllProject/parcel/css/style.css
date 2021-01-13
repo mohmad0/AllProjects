@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.nav-list {
+  height: 10vh;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-left: auto;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.home, .about {
+  height: 90vh;
+  position: absolute;
+  width: 100%;
+}
+.home .home-content, .home .about-content, .about .home-content, .about .about-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+.home .home-content img, .home .about-content img, .about .home-content img, .about .about-content img {
+  width: 50%;
+  height: 70%;
+}
+.home .home-content h1, .home .about-content h1, .about .home-content h1, .about .about-content h1 {
+  font-size: 50px;
+  margin: 30px 0;
+}
+.home .home-content p, .home .about-content p, .about .home-content p, .about .about-content p {
+  font-size: 20px;
+}
+
+.home {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.about {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+/*# sourceMappingURL=style.css.map */

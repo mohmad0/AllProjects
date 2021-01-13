@@ -1,0 +1,144 @@
+@import url(href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #010615;
+}
+
+.boxcard
+{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 40px;
+	background-color: #060c21;
+	transition: 0.5s;
+}
+
+.boxcard:hover
+{
+	height: 400px;
+}
+
+.boxcard:before
+{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background-color: #fff;
+	z-index: -1;
+}
+
+.boxcard:after
+{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background-color: #fff;
+	z-index: -2;
+	filter: blur(40px);
+}
+
+.boxcard:before,
+.boxcard:after
+{
+	background-image: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
+}
+
+.boxcard:nth-child(2):before,
+.boxcard:nth-child(2):after
+{
+	background-image: linear-gradient(235deg, #ff005e, #010615, #fbff00);
+}
+
+.boxcard:nth-child(3):before,
+.boxcard:nth-child(3):after
+{
+	background-image: linear-gradient(235deg, #772aff, #010615, #2196f3);
+}
+
+.boxcard .imgbox
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+
+
+.boxcard .imgbox img
+{
+	max-width: 100%;
+	opacity: 0.1;
+	transition: 0.5s;
+}
+
+.boxcard:hover .imgbox img
+{
+	opacity: 1;
+}
+
+.boxcard .content
+{
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	height: 90px;
+	background-color: rgba(0,0,0,.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.boxcard:hover .content
+{
+	opacity: 1;
+}
+
+.boxcard .content h2
+{
+	font-size: 20px;
+	color: #fff;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+}
+
+.boxcard .content h2 span
+{
+	font-size: 14px;
+	color: #fff;
+	display: block;
+	font-weight: 200;
+	letter-spacing: 2px;
+}

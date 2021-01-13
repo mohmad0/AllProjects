@@ -1,0 +1,35 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+
+.our-text{
+    background-color: #eee;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    z-index: 2
+}
+
+.our-div{
+    background-color: #080;
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    z-index: 1
+}
+/*End Global Rulez*/
+

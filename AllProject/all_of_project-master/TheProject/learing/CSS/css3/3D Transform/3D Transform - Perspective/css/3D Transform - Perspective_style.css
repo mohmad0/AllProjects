@@ -1,0 +1,53 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+div:first-of-type
+{
+	perspective: 600px;  /* this is the space between the Element and the Viewer &&& ==> must be for ===> 3d moving */
+	perspective-origin: 50% 50% /* this the angle that i look it 50% 50% ===> center center */
+}
+
+div:nth-of-type(2)
+{
+	perspective: 500px;  /* this is the space between the Element and the Viewer &&& ==> must be for ===> 3d moving */
+	perspective-origin: top; /* this the angle that i look it*/
+}
+
+div:nth-of-type(3)
+{
+	perspective: 400px;  /* this is the space between the Element and the Viewer &&& ==> must be for ===> 3d moving */
+	perspective-origin: right /* this the angle that i look it right ===> 100% */
+}
+
+div:nth-of-type(4)
+{
+	perspective: 300px;  /* this is the space between the Element and the Viewer &&& ==> must be for ===> 3d moving */
+	perspective-origin: bottom; /* this the angle that i look it  */
+}
+
+div:last-of-type
+{
+	perspective: 200px;  /* this is the space between the Element and the Viewer &&& ==> must be for ===> 3d moving */
+	perspective-origin:left; /* this the angle that i look it left ===> 0% */
+}
+
+
+img
+{
+	display: block;
+	margin: 50px auto;
+	transition: all 0.5s ease-in-out;
+	transform: translateZ(100px);
+}
+
+
+img:hover
+{
+	
+}

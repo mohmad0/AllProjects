@@ -1,0 +1,149 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div
+{
+	width:400px ;
+	padding:10px ;
+	border:2px solid #443;
+	margin: 0
+}
+
+/*
+	Nth: Number th ( 4th , 5th , ... )
+
+	Nth(Number , formula , keyword[odd , even] )
+
+*/
+
+
+.Nth_Child1 div:nth-child(n+5) /* this will start count from div number ===> [5] to end */
+{
+	background-color: #f00;
+	color: #fff
+}
+
+
+.Nth_Child2 div:nth-child(-n+5) /* this will start from end and count 5 div and caption after 5 to first  */
+{
+	background-color: #f00;
+	color: #fff
+}
+
+
+.Nth_Child3 div:nth-child(4n+1) /* this is the ====> [ formula ] */
+{
+	background-color: #f00;
+	color: #fff
+}
+/*
+	4xn+1	| 4x0 = 0 + 1 = [1] this will effect on div number ===> 1
+	4xn+1	| 4x1 = 4 + 1 = [5]	this will effect on div number ===> 5
+	4xn+1	| 4x2 = 8 + 1 = [9]	this will effect on div number ===> 9
+
+*/
+
+.Nth_Child4 div:nth-child(n+5):nth-child(-n+7) /* this is [ Rang ] will start count from [ 5 to 7 ]  */
+{
+	background-color: #f00;
+	color: #fff
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.Nth_last_Child1 div:nth-last-child(n+7) /* this will start count from div number ===> [7] to first */
+{
+	background-color: #f0f;
+	color: #fff;
+}
+
+.Nth_last_Child2 div:nth-last-child(-n+5) /* this will start from end and count 5 div and caption after 5 to end  */
+{
+	background-color: #f0f;
+	color: #fff;
+}
+
+.Nth_last_Child3 div:nth-last-child(3n+1) /* this is the ====> [ formula ] */
+{
+	background-color: #f0f;
+	color: #fff;
+}
+
+/*
+	3xn+1	| 3x0 = 0 + 1 = [1] this will effect on div number ===> 1
+	3xn+1	| 3x1 = 3 + 1 = [4]	this will effect on div number ===> 4
+	3xn+1	| 3x2 = 6 + 1 = [7]	this will effect on div number ===> 7
+
+*/
+
+.Nth_last_Child4 div:nth-last-child(n+4):nth-last-child(-n+7) /* this is [ Rang ] will start count from [ 4 to 7 ]  */
+{
+	background-color: #f0f;
+	color: #fff;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.Nth_Of_Type1 div:nth-of-type(n+8) /* this will start count from div number ===> [8] has type div to end */
+{
+	background-color: #eee
+}
+
+.Nth_Of_Type2 div:nth-of-type(-n+6) /* this will start from end and count 6 div has type div and caption after 6 to first  */
+{
+	background-color: #eee
+}
+
+.Nth_Of_Type3 div:nth-of-type(5n+1) /* this is the ====> [ formula ] */
+{
+	background-color: #eee
+}
+
+/*
+	5xn+1	| 5x0 = 0 + 1 = [1] this will effect on div number ===> 1 && has type div
+	5xn+1	| 5x1 = 5 + 1 = [6]	this will effect on div number ===> 6 && has type div
+
+*/
+
+.Nth_Of_Type4 div:nth-of-type(n+6):nth-of-type(-n+8) /* this is [ Rang ] will start count from [ 6 to 8 ] has type div  */
+{
+	background-color: #eee
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.Nth_last_Of_Type1 div:nth-last-of-type(n+8) /* this will start from end && count from div number ===> [8] has type div to first */
+{
+	background-color: #080;
+	color: #fff;
+}
+
+.Nth_last_Of_Type2 div:nth-last-of-type(-n+6) /* this will start from first and count 6 div has type div and caption after 6 to end */
+{
+	background-color: #080;
+	color: #fff;
+}
+
+.Nth_last_Of_Type3 div:nth-last-of-type(5n+1) /* this is the ====> [ formula ] and will start from end to first */
+{
+	background-color: #080;
+	color: #fff;
+}
+
+/*
+	5xn+1	| 5x0 = 0 + 1 = [1] this will effect on div number ===> 1 && has type div
+	5xn+1	| 5x1 = 5 + 1 = [6]	this will effect on div number ===> 6 && has type div
+
+*/
+
+.Nth_last_Of_Type4 div:nth-of-type(n+6):nth-of-type(-n+8) /* this is [ Rang ] will start count from [ 6 to 8 ] has type div */
+{
+	background-color: #080;
+	color: #fff;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

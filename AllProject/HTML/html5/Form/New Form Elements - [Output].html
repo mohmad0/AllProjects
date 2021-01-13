@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> New Form Elements - Output </title>
+		<meta charset="utf-8">
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.min.js"></script> 
+		<![endif]-->
+		<link rel="stylesheet" href="css/style_New Tags 6.css" />
+	</head>
+	<body>
+
+		<!-- This For Cheking ===> https://caniuse.com/#search=dialog  -->
+		
+		<h1> Calculate Your Age By Days </h1>
+		<form oninput="result.value = parseInt(age.value) * parseInt(days.value) + ' Days' ">
+			<input type="text" name="age">
+			<input type="hidden" name="days" value="365">
+			<output name="result"></output>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+div
+{
+	width:120px ;
+	height:100px ;
+	background:#DDD ;
+	padding:10px ;
+	overflow:auto; /* this is favarable */
+}
+
+/*
+	overflow:visible; this is defulte value
+
+	overflow:hidden;
+
+	overflow:scroll;
+
+	overflow:auto;
+*/

@@ -1,0 +1,80 @@
+/* 
+	color:#080  			 	 i can use olso ==> rgb or rgba 
+
+	direction: rtl; ==>		 	 right to left this use in Arbic words  or ltr ==> left to right this use in English Words
+
+	letter-spacing: 5px;	 	 &&  i can use ==> -5px
+
+	line-height: 2em		 	 && i can use ==> 10px or 5ex or 100%
+
+	text-align: right;			 && i can use ==> left or center
+
+	text-decoration: underline;  && i can use ==> [ none ] or [ overline ] or [ line-through ]
+
+	text-indent: 20px; 			 this is space befour the first line
+
+	white-space: nowrap;		 the words will out from the div && normal is defult value
+
+	word-spacing: 20px;			 Space Between words
+
+	text-transform: capitalize;   && i can use ==> [ uppercase ] or  [ lowercase ]
+
+*/
+
+
+div
+{	/* Div Properity */
+	width: 400px;
+	padding: 10pt;
+	background: #ddd;
+	margin: 10px;
+
+	/* Text Properity */
+	color:#080;   /*Color Text*/
+	direction: ltr; /* Text Direction  */
+	letter-spacing:5px; /*Space Between Letter */
+	line-height: 2em; /* Space Between Lines */
+	text-align: left;  /* Align Of The Text */
+}
+.text
+{
+	text-decoration: underline;
+	text-indent: 20px;  /* space befour the first line */
+	white-space: nowrap; /* the words will out from the div */
+}
+a
+{
+	text-decoration:none; /* remove line from line */
+}
+a:active
+{
+	text-decoration:underline;
+}
+a:hover
+{
+	text-decoration:overline; /* adding line on line */
+}
+
+.old
+{
+	color: red;
+	text-decoration: line-through; /* adding line in line */
+} 
+.new
+{
+	color: blue;
+}
+
+.cap
+{
+	text-transform: capitalize;
+}
+.upper
+{
+	text-transform: uppercase;
+}
+.lower
+{
+	text-transform: lowercase;
+	word-spacing: 20px;
+}

@@ -1,0 +1,38 @@
+@function incFont($element) {
+	$font:16px;
+	$result:0;
+	@if $element > $font{
+
+		$result: $element - $font ;
+
+	} @else{
+
+		$result: $font + $element;
+	}
+	@return $result;
+}
+
+.class1
+{
+	font-size: incFont(10px); // $result = 16px + 10px ==> 26px
+}
+
+.class2
+{
+	font-size: incFont(20px); // $result = 20px - 16px ==> 4px
+}
+
+.class3
+{
+	font-size: incFont(30px); // $result = 30px - 16px ==> 14px
+}
+
+.class4
+{
+	font-size: incFont(40px); // $result = 40px - 16px ==> 24px
+}
+
+.class5
+{
+	font-size: incFont(50px); // $result = 50px - 16px ==> 34px
+}

@@ -1,0 +1,125 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.one
+{
+	width:200px ;
+	height:100px ;
+	top: 10px;
+	left:10px;
+	background-color:#f00 ;
+	position: absolute;
+	animation-name: moving;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+	animation-duration: alternate ;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease;
+}
+
+.tow
+{
+	width:200px ;
+	height:100px ;
+	top: 10px;
+	left:220px;
+	background-color:#00f ;
+	position: absolute;
+	animation-name: moving;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+	animation-duration: alternate ;
+	animation-delay: 3s;
+	animation-fill-mode: backwards;
+	animation-timing-function: ease-in;
+}
+
+.three
+{
+	width:200px ;
+	height:100px ;
+	top: 10px;
+	left:430px;
+	background-color:#ff0 ;
+	position: absolute;
+	animation-name: moving;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+	animation-duration: alternate ;
+	animation-delay: 3s;
+	animation-fill-mode: both;
+	animation-play-state: running;
+	animation-timing-function: ease-out;
+}
+
+
+.four
+{
+	width:200px ;
+	height:100px ;
+	top: 10px;
+	left:640px;
+	background-color:#ff0 ;
+	position: absolute;
+	animation-name: moving;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+	animation-duration: alternate ;
+	animation-delay: 3s;
+	animation-fill-mode: both;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+}
+
+.five
+{
+	width:200px ;
+	height:100px ;
+	top: 10px;
+	left:860px;
+	background-color:#ff0 ;
+	position: absolute;
+	animation-name: moving;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+	animation-duration: alternate ;
+	animation-delay: 3s;
+	animation-fill-mode: both;
+	animation-play-state: running;
+	animation-timing-function: linear;
+}
+
+@keyframes moving {
+
+	0% {
+		top: 0;
+		
+	}
+
+	100% {
+		top: 450px;
+	}
+}
+
+/*
+	animation-play-state: running; ===> this is defulte value
+
+	animation-play-state: paused;  ===> this will do stoping for animation
+
+	animation-timing-function: ease;
+
+	animation-timing-function: ease-in
+
+	animation-timing-function: ease-out;
+
+	animation-timing-function: ease-in-out;
+
+	animation-timing-function: linear;
+
+*/

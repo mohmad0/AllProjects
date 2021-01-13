@@ -1,0 +1,40 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div
+{
+	width:32% ;
+	background-color:#00f ;
+	color:#fff ;
+	padding:10px ;
+	font-size:25px ;
+	float: left;
+	margin-left: 1%
+
+}
+
+/*
+	the pater start the desgin from mobile screen to large screen
+
+	http://screensiz.es/  ====> this is site for sizing Devie screens
+
+*/
+
+@media (min-width:1000px ) and (max-width:1500px ) 
+{
+
+	div
+	{
+		width:100% ;
+		background-color:#f00 ;
+		float: none;
+		margin-left: 0;
+		margin-bottom: 20px
+
+	}
+}

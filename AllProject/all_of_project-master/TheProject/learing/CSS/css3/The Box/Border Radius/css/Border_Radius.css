@@ -1,0 +1,20 @@
+div
+{
+	width:200px ;
+	height:200px ;
+	padding:10px ;
+	margin:20px auto ;
+	background:#eee ;
+	border:1px solid #ccc ;
+	text-align: center;
+
+	border-top-right-radius:100px ;
+	border-top-left-radius:0; 
+	border-bottom-right-radius:0 ;
+	border-bottom-left-radius:100px ;
+
+	-webkit-border-radius: Top-Left Top-Right Bottom-Right Bottom-Left;
+	-moz-border-radius: Top-Left Top-Right Bottom-Right Bottom-Left;
+	-o-border-radius: Top-Left Top-Right Bottom-Right Bottom-Left;
+	border-radius: Top-Left Top-Right Bottom-Right Bottom-Left;
+}

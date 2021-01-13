@@ -1,0 +1,33 @@
+div
+{
+	width:300px;
+	height: 200px;
+	background-color: #a4b0be;
+	margin:50px auto;
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+}
+
+div:before, div:after
+{
+	content: '';
+	display: block;
+	border-width: 0 20px 20px 0;
+	border-style: solid;
+	position: absolute;
+	top: 0;
+	right: 0
+}
+
+div:after
+{
+	border-color: #2f3542 transparent;
+}
+
+div:before
+{
+	border-color: #2f3542 #fff;
+	-webkit-box-shadow: -2px 2px 12px #1d1d1d;
+	box-shadow: -2px 2px 12px #1d1d1d;
+}

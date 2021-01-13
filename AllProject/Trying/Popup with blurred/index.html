@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<!-- For internet explorar -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- First Mobile Meta -->
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Liquid Loader Animation Effects Using CSS & SVG</title>
+		<!-- <link rel="stylesheet" href="./swiper.css"> -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container-popup" id="blur">
+			<div class="content-popup">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.	
+				</p>
+				<img src="web.jpg" alt="web">
+				<a href="#" onclick="togglepopup()">Read More</a>
+			</div>
+		</div>
+
+		<div id="popup">
+			<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.	
+			</p>
+			<a href="#" onclick="togglepopup()">Close</a>
+		</div>
+		<script type="text/javascript">
+			function togglepopup() {
+				var blur = document.getElementById('blur');
+				blur.classList.toggle('active')
+
+				var popup = document.getElementById('popup');
+				popup.classList.toggle('active')
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+
+
+Words You Will Hear:
+--------------------
+1- Make Fork From The Email That Will Make Pull Request From It
+2- Go To Pull Request => New Pull Request
+3- Create Pull Request
+4- Wright Name && Description Pull Request
+5- Create Pull Request
+6- If The Email Accepted The Pull Request Will Show ==> [ Marged ]
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Important Notes:
+----------------
+
+1- Create Repository For Every Project
+2- Create A New Branch For Every Feature Or Enhancenment
+3- No Need To Connect To Remote Repo When Working
+4- Anyone Can Push And Pull Depend On Permissions

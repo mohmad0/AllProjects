@@ -1,0 +1,41 @@
+.mainColor, div .class4 p span, div .class4, div .class3 h1, div .class3, div .class2 h1, div .class2, div .class1 h1, div .class1, div {
+  color: red;
+}
+
+div .class4 p span, div .class4, div .class3 h1, div .class3, div .class2 h1, div .class2, div .class1 h1, div .class1, div {
+  background-color: red;
+}
+
+div {
+  color: #fff;
+  font-weight: bold;
+}
+div .class1 {
+  width: 25%;
+}
+div .class1 h1 {
+  font-size: 40px;
+}
+div .class2 {
+  width: 25%;
+}
+div .class2 h1 {
+  font-size: 25px;
+}
+div .class3 {
+  width: 25%;
+}
+div .class3 h1 {
+  font-size: 18px;
+}
+div .class4 {
+  font-size: 40px;
+  width: 25%;
+}
+div .class4 p {
+  line-height: 1.7;
+  color: #fff;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,28 @@
+body
+{
+	background-color: #2b3a0e
+}
+
+.spinner
+{
+	margin:250px auto;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border:3px solid #aaa;
+	border-top-color: red;
+	border-bottom-color: red;
+	animation: rotate .75s linear infinite
+}
+
+@keyframes rotate 
+{
+	from
+	{
+		transform: rotate(0deg);
+	}
+	to
+	{
+		transform: rotate(360deg);
+	}
+}

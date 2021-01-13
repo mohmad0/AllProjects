@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Form Attributes - AutoComplete, AutoFocus, NoValidate </title>
+	</head>
+	<!--[if lt IE 9]>
+			<script src="js/html5shiv.min.js"></script> 
+		<![endif]-->
+		<link rel="stylesheet" href="css/style_New Tags 6.css" />
+	</head>
+	<body>
+
+		<!-- This For Cheking ===> https://caniuse.com/#search=dialog  -->
+
+		<!-- this for type mp3 ==> https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types -->
+		
+		<section>
+			<h1>New Input Fieldd</h1>
+			<form novalidate> <!--This Will Not Do Validate -->
+				<label>Text</label>
+				<input type="text"  		 name="Text" autoFocus="on">
+				<label>Email</label>
+				<input type="email" 		 name="Email" autoComplete="off">
+				<input type="submit" value="send">
+			</form>
+		</section>
+
+	</body>
+</html>

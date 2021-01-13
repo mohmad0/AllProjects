@@ -1,0 +1,58 @@
+
+*
+{	
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color: #333;
+}
+
+a {
+  background-color: #F00;
+  color: #FFF;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  line-height: 100%;
+  display: block;
+  margin: 200px auto;
+  text-align: center;
+  padding-top: 25px;
+  position: relative;
+}
+
+a i.fa-heart
+{
+    position: absolute;
+    top: 30px;
+    left: 29px;
+    font-size: 65px !important;
+
+}
+
+a:hover i
+{
+	animation: heart .8s linear infinite
+}
+
+@keyframes heart
+{
+	0% 
+	{
+		transform: scale(1);
+	}
+	50% 
+	{
+		transform: scale(.85);
+	}
+	100% 
+	{
+		transform: scale(1);
+	}
+
+}

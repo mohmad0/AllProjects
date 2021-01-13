@@ -1,0 +1,19 @@
+
+
+Words You Will Hear:
+--------------------
+1- git push origin master ==> [ This Will Push All Files ]
+2- git push
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Important Notes:
+----------------
+
+1- Create Repository For Every Project
+2- Create A New Branch For Every Feature Or Enhancenment
+3- No Need To Connect To Remote Repo When Working
+4- Anyone Can Push And Pull Depend On Permissions

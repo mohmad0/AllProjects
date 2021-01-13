@@ -1,0 +1,289 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: Tahoma, Arial;
+}
+
+.slider-container
+{
+	position: relative;
+	height: 500px;
+	width: 100%;
+}
+
+.slider-container div
+{
+	position: absolute;
+	opacity: 0;
+	transition: opacity 1s;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+}
+
+
+.slider-container div.active
+{
+	opacity: 1;
+}
+
+
+
+
+.slider-container span.slider-number
+{
+	position: absolute;
+	top: 10px;
+	background-color: rgba(0 , 0 , 0 , 0.6);
+	color: #fff;
+	padding:5px 10px;
+	font-size:20px ;
+	z-index: 2;
+	display: block;
+	border-radius: 6px;
+}
+
+.slider-controls
+{
+	width: 100%;
+	z-index: 2;
+	overflow: hidden;
+}
+
+.slider-controls .prev,
+.slider-controls .next
+{
+	background-color: red;
+	color: #fff;
+	font-size: 16px;
+	text-align:center;
+	cursor: pointer;
+	border-radius:4px;
+	padding: 5px;
+	user-select: none;
+	width: 11%;
+
+}
+
+.slider-controls .prev
+{
+	float: left;
+}
+
+.slider-controls .next
+{
+	float: right;
+}
+
+.slider-controls .prev.disabled,
+.slider-controls .next.disabled
+{
+	background-color: rgba(0 , 150 , 136 , 0.5);
+	cursor: no-drop;
+}
+
+.slider-controls .polits
+{
+	width: 78%;
+	float: left;
+}
+.slider-controls .polits ul
+{
+	list-style: none;
+	margin: 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+.slider-controls .polits ul li
+{
+	display: inline-block;
+	background-color: #f6f6f6;
+	color: #333;
+	font-weight: bold;
+	height: 28px;
+	width: 28px;
+	border-radius: 4px;
+	margin: 0 2px;
+	line-height: 28px;
+}
+
+.slider-controls .polits ul li.active
+{
+	background-color:#009688;
+	color: #fff;
+}
+
+@media (min-width: 300px) and (max-width: 767px)
+{
+
+	.slider-container div:first-of-type
+	{
+		background: url(Images/01.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		min-height: 530px;
+		z-index: -1;
+	}
+
+	.slider-container div:nth-of-type(2)
+	{
+		background: url(Images/02.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		min-height: 530px;
+		z-index: -1;
+	}
+
+	.slider-container div:last-of-type
+	{
+		background: url(Images/03.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		min-height: 530px;
+		z-index: -1;
+	}
+	.slider-container span.slider-number
+	{
+		position: absolute;
+		top: 10px;
+		background-color: rgba(0 , 0 , 0 , 0.6);
+		color: #fff;
+		padding:5px 10px;
+		font-size:20px ;
+		z-index: 2;
+		display: block;
+		border-radius: 6px;
+	}
+	.slider-controls .prev,
+	.slider-controls .next
+	{
+		background-color: red;
+		color: #fff;
+		font-size: 16px;
+		text-align:center;
+		cursor: pointer;
+		border-radius:4px;
+		padding: 5px;
+		user-select: none;
+		width: 15%;
+
+	}
+	.slider-controls .polits
+	{
+		width: 70%;
+		float: left;
+	}
+
+}
+
+
+@media (min-width: 768px)
+{
+
+	.slider-container div:first-of-type
+	{
+		background: url(Images/01.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		min-height: 530px;
+		z-index: -1;
+	}
+
+	.slider-container div:nth-of-type(2)
+	{
+		background: url(Images/02.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		min-height: 530px;
+		z-index: -1;
+	}
+
+	.slider-container div:last-of-type
+	{
+		background: url(Images/03.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		min-height: 530px;
+		z-index: -1;
+	}
+	.slider-container span.slider-number
+	{
+		position: absolute;
+		top: 10px;
+		background-color: rgba(0 , 0 , 0 , 0.6);
+		color: #fff;
+		padding:5px 10px;
+		font-size:20px ;
+		z-index: 2;
+		display: block;
+		border-radius: 6px;
+	}
+	.slider-controls .prev,
+	.slider-controls .next
+	{
+		background-color: red;
+		color: #fff;
+		font-size: 16px;
+		text-align:center;
+		cursor: pointer;
+		border-radius:4px;
+		padding: 5px;
+		user-select: none;
+		width: 15%;
+
+	}
+	.slider-controls .polits
+	{
+		width: 70%;
+		float: left;
+	}
+
+}
+
+
+@media (min-width: 1200px){
+
+	.slider-container div:first-of-type
+	{
+		background: url(Images/01.jpg) no-repeat center center fixed;
+		min-height: 530px;
+		min-width: 100%;
+		z-index: -1;
+	}
+
+	.slider-container div:nth-of-type(2)
+	{
+		background: url(Images/02.jpg) no-repeat center center fixed;
+		min-height: 530px;
+		min-width: 100%;
+		z-index: -1;
+	}
+
+	.slider-container div:last-of-type
+	{
+		background: url(Images/03.jpg) no-repeat center center fixed;
+		min-height: 530px;
+		min-width: 100%;
+		z-index: -1;
+	}
+
+}

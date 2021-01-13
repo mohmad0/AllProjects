@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<!-- For internet explorar -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- First Mobile Meta -->
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Create Curtain Layer Responsive Menu</title>
+		<!-- <link rel="stylesheet" href="css/font-awesome.min.css" /> -->
+		<link rel="stylesheet" href="style.css" />
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.min.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="curtain">
+			<span></span>
+			<span></span>
+			<span></span>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<div class="toggle" onclick="toggle()"></div>
+		</div>
+		<script type="text/javascript">
+			function toggle() {
+				var curtain = document.getElementById('curtain');
+				curtain.classList.toggle('active')
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+
+
+Words You Will Hear:
+--------------------
+1- shell = Command Line Interpreter
+2- terminal = text input/Output Enviroment
+3- CMD = Is The Original Shell For The Microsoft DOS Operating System
+4- PowerShell = After CMD
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Important Notes:
+----------------
+
+1- Create Repository For Every Project
+2- Create A New Branch For Every Feature Or Enhancenment
+3- No Need To Connect To Remote Repo When Working
+4- Anyone Can Push And Pull Depend On Permissions

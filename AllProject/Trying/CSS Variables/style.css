@@ -1,0 +1,14 @@
+/*
+	var(name_property , alternate_property)  && this not do in [internet explorer]
+
+*/
+
+:root
+{
+	--main-color:#080;
+}
+
+p
+{
+	color: var(--main-color , red)
+}

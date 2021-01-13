@@ -1,0 +1,109 @@
+.ico-facebook {
+  background-image: url("Images/image_facebook.pnp");
+}
+
+.ico-youtube {
+  background-image: url("Images/image_youtube.pnp");
+}
+
+.ico-twitter {
+  background-image: url("Images/image_twitter.pnp");
+}
+
+.ico-codepen {
+  background-image: url("Images/image_codepen.pnp");
+}
+
+.ico-instagram {
+  background-image: url("Images/image_instagram.pnp");
+}
+
+.ico-yahoo {
+  background-image: url("Images/image_yahoo.pnp");
+}
+
+.ico-facebook {
+  background-image: url("Images/image_facebook.pnp");
+  color: #fff;
+  border: 2px solid #fff;
+}
+.ico-facebook:hover {
+  background-color: red;
+}
+
+.ico-youtube {
+  background-image: url("Images/image_youtube.pnp");
+  color: #334;
+  border: 2px solid #334;
+}
+.ico-youtube:hover {
+  background-color: green;
+}
+
+.ico-twitter {
+  background-image: url("Images/image_twitter.pnp");
+  color: #213;
+  border: 2px solid #213;
+}
+.ico-twitter:hover {
+  background-color: black;
+}
+
+.ico-codepen {
+  background-image: url("Images/image_codepen.pnp");
+  color: #456;
+  border: 2px solid #456;
+}
+.ico-codepen:hover {
+  background-color: yellow;
+}
+
+.ico-instagram {
+  background-image: url("Images/image_instagram.pnp");
+  color: #345523;
+  border: 2px solid #345523;
+}
+.ico-instagram:hover {
+  background-color: pink;
+}
+
+.ico-yahoo {
+  background-image: url("Images/image_yahoo.pnp");
+  color: #213;
+  border: 2px solid #213;
+}
+.ico-yahoo:hover {
+  background-color: black;
+}
+
+h1 {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+h5 {
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

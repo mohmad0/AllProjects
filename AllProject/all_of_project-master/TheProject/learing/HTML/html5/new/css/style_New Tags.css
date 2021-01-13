@@ -1,0 +1,81 @@
+/* Start Global */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	font-family: Arial, Tahoma
+}
+
+/* End Global */
+
+
+/* Start Header */
+
+.main
+{
+	background:#333 ;
+	color:#ddd ;
+	padding:20px ;
+	text-align: center;
+}
+nav
+{
+	background: #ddd
+}
+
+nav ul 
+{
+	padding: 20px;
+	text-align: center;
+}
+ nav ul li
+ {
+ 	display: inline-block;
+ }
+ nav ul li:after
+ {
+ 	content: ' |'
+ }
+
+ nav ul li:last-child:after
+ {
+ 	content: ''
+ }
+
+/* End Header */
+
+/* Start Article */
+article
+{
+	background:#f6f6f6 ;
+	border:1px solid #ccc;
+	margin: 20px;
+}
+article header
+{
+	background:#e2e2e2 ;
+	margin: 10px;
+}
+article section
+{
+	margin: 10px;
+}
+
+
+/* End Article */
+
+/* Start Footer */
+footer
+{
+	background:#333 ;
+	color:#ddd ;
+	padding:10px ;
+	text-align: center;
+}
+
+
+/* End Footer */

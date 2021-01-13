@@ -1,0 +1,127 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cont
+{
+	width:250px ;
+	height:50px ;
+	margin: 10px;
+	float: left;
+	font-family: Arial, Tahoma;
+	font-weight: bold;
+	text-align: center;
+}
+
+.cont .box
+{
+	height:50px ;
+	line-height:50px ;
+	position:relative;
+	color:#fff ;
+	z-index: 2
+}
+
+.cont a
+{
+	display: inline-block;
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	top: -50px;
+	z-index: 1
+}
+
+.cont:hover a 
+{
+	top:0;
+}
+
+.normal:before
+{
+	display: block;
+	padding: 10px;
+	margin-bottom: 10px;
+	content: "Normal Hover";
+}
+
+.normal .box
+{
+	background-color: #62c8f8;
+}
+
+.transition:before
+{
+	display: block;
+	padding: 10px;
+	margin-bottom: 10px;
+	content: "Transition Hover";
+}
+
+.transition .box
+{
+	background-color: #3b5998;
+}
+
+.transition a
+{
+	transition: all 1.5s ease-in-out
+}
+
+.animation:before
+{
+	display: block;
+	padding: 10px;
+	margin-bottom: 10px;
+	content: "Animation Hover";
+}
+
+.animation .box
+{
+	background-color: #c8302a;
+}
+
+.animation a
+{
+	transition: all 1.5s ease-in-out
+}
+
+.animation:hover a 
+{	
+	transform-origin: top;
+	animation: swing 1.5s ease-in;
+}
+
+@keyframes swing {
+	0% {
+		transform: rotateX(-50deg);
+	}
+
+	20% {
+		transform: rotateX(50deg);
+	}
+
+	40% {
+		transform: rotateX(-30deg);
+	}
+
+	60% {
+		transform: rotateX(30deg);
+	}
+
+	80% {
+		transform: rotateX(-30deg);
+	}
+
+	100% {
+		transform: rotateX(0deg);
+	}
+}

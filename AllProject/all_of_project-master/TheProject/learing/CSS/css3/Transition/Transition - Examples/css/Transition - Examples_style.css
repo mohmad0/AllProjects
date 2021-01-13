@@ -1,0 +1,184 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html
+{
+	height: 3000px
+}
+
+.clear
+{
+	clear: both;
+}
+
+.cont1
+{
+	width: 900px;
+	margin: 120px auto
+}
+
+.cont1 div
+{
+	float: left;
+	margin-left: 10px;
+	width:150px ;
+	height: 150px;
+	text-align: center;
+	line-height: 130px;
+	background-color:#2c3e50 ;
+	padding: 10px;
+	color: #fff;
+	display: inline-block;
+	transition: all .5s ease-in-out;
+}
+
+.cont1 div:hover
+{
+	box-shadow: inset 0 0 0 10px #3489db;
+	margin-top: 10px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+.cont2
+{
+	width: 900px;
+	margin: 50px auto
+}
+
+.cont2 div
+{
+	float: left;
+	margin-left: 10px;
+	width:150px ;
+	height: 150px;
+	text-align: center;
+	line-height: 130px;
+	background-color:#2c3e50 ;
+	padding: 10px;
+	color: #fff;
+	display: inline-block;
+	transition: all .5s ease-in-out;
+	opacity: .5
+}
+
+.cont2 div:hover
+{
+	opacity: 1
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+.cont3
+{
+	width: 900px;
+	margin: 50px auto
+}
+
+.cont3 div
+{
+	float: left;
+	margin-left: 10px;
+	width:150px ;
+	height: 150px;
+	text-align: center;
+	line-height: 130px;
+	background-color:#2c3e50 ;
+	padding: 10px;
+	color: #fff;
+	display: inline-block;
+	transition: all .5s ease-in-out;
+}
+
+.cont3 div:hover
+{
+	background-color: #3489db
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+.cont4
+{
+	width: 900px;
+	margin: 50px auto
+}
+
+.cont4 div
+{
+	float: left;
+	margin-left: 10px;
+	width:150px ;
+	height: 150px;
+	text-align: center;
+	line-height: 130px;
+	background-color:#2c3e50 ;
+	padding: 10px;
+	color: #fff;
+	display: inline-block;
+	transition: all .5s ease-in-out;
+}
+
+.cont4 div:hover
+{
+	transform: scale(1.08);
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+.cont5
+{
+	width: 900px;
+	margin: 50px auto
+}
+
+.cont5 div
+{
+	float: left;
+	margin-left: 10px;
+	width:150px ;
+	height: 150px;
+	text-align: center;
+	line-height: 130px;
+	background-color:#2c3e50 ;
+	padding: 10px;
+	color: #fff;
+	display: inline-block;
+	transition: all .5s ease-in-out;
+}
+
+.cont5 div:hover
+{
+	transform: rotateY(-50deg);
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
+.cont6
+{
+	width: 900px;
+	margin: 50px auto
+}
+
+.cont6 div
+{
+	float: left;
+	margin-left: 10px;
+	width:150px ;
+	height: 150px;
+	text-align: center;
+	line-height: 130px;
+	background-color:#2c3e50 ;
+	padding: 10px;
+	color: #fff;
+	display: inline-block;
+	transition: all .5s ease-in-out;
+}
+
+.cont6 div:hover
+{
+	border-radius: 50%
+}

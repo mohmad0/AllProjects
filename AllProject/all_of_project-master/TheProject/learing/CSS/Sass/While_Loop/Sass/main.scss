@@ -1,0 +1,12 @@
+$mainWidth:12;
+
+@while $mainWidth > 0 { // In First $mainWidth = 12 => Then $mainWidth = 11 => Then $mainWidth = 10 ... To $mainWidth = 0 In This The Loop Will Be Stop
+
+	.col-#{$mainWidth}{
+
+		width: (100% / (12 / $mainWidth));
+
+	}
+
+	$mainWidth: $mainWidth - 1;
+}

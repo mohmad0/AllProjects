@@ -1,0 +1,48 @@
+form {
+  width: 500px;
+  margin: 50px auto;
+}
+
+input 
+{
+    width: 300px;
+    padding: 5px 10px;
+    height: 28px;
+    border: 1px solid #CCC;
+}
+
+.hide-me:focus::-webkit-input-placeholder 
+{
+	opacity: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+}
+
+.hide-me:focus::-moz-input-placeholder 
+{
+	opacity: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+}
+
+.hide-me:focus:-moz-input-placeholder 
+{
+	opacity: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+}
+
+.hide-me:focus::-ms-input-placeholder 
+{
+	opacity: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+}

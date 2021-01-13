@@ -1,0 +1,139 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.container
+{
+	width:800px ;
+	height: 500px;
+	margin: 50px auto;
+	background-color:#eee ;
+	padding: 10px;
+	display:flex;
+}
+
+.container div 
+{
+	color: #fff;
+	width: 150px;
+	max-height: 100px;
+	padding: 10px;
+}
+
+.container .one
+{
+	background-color: #080;
+	order: 4
+}
+
+.container .tow
+{
+	background-color: #f00;
+	order: 3
+}
+
+.container .three
+{
+	background-color: #00f;
+	order: 2
+}
+
+.container .four
+{
+	background-color: #000;
+	order: 1
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+.container .one1
+{
+	background-color: #080;
+	flex-grow: 1
+}
+
+.container .tow2
+{
+	background-color: #f00;
+	
+}
+
+.container .three3
+{
+	background-color: #00f;
+	
+}
+
+.container .four4
+{
+	background-color: #000;
+	
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+.Shrink
+{
+	width:450px ;
+	height: 500px;
+	margin: 50px auto;
+	background-color:#eee ;
+	padding: 10px;
+	display:flex;
+}
+
+.Shrink div 
+{
+	color: #fff;
+	width: 150px;
+	max-height: 100px;
+	padding: 10px;
+}
+
+.container .one5
+{
+	background-color: #080;
+	flex-shrink:0
+	
+}
+
+.container .tow6
+{
+	background-color: #f00;
+	flex-shrink:0
+	
+	
+}
+
+.container .three7
+{
+	background-color: #00f;
+	flex-shrink:1
+	
+}
+
+.container .four8
+{
+	background-color: #000;
+	flex-shrink:1
+	
+}
+
+/*
+	order: 4 ===> this will put the number [ 4 ]
+
+	order: 3 ===> this will put the number [ 3 ]
+
+	flex-grow: 1 ===> this will adding one size of other div on it
+
+	flex-grow: 0 ===> this is defulte  value
+
+	flex-shrink:0 ===> this is defulte  value
+
+	flex-shrink:1 ===> this will decrese the div when the container width is less than sum all div on container &&& adding to other div to fill the container
+
+*/

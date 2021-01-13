@@ -1,0 +1,22 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img:hover
+{
+	transform: rotateY(120deg);
+}
+
+/*
+
+	transform: rotateX(120deg); this will move 3d in X === 120 degree
+
+	transform: rotateY(120deg); this will move 3d in Y === 120 degree
+
+	transform: rotateZ(120deg); this will move 3d in Z === 120 degree
+
+*/

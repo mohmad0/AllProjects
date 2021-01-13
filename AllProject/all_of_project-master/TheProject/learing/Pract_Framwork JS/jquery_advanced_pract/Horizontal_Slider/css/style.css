@@ -1,0 +1,39 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+
+section{
+    margin:20px auto;
+    width: 940px;
+}
+.item{
+    width: 10%;
+    float: left;
+    background-color: #eee;
+    height: 200px;
+    line-height: 200px;
+    cursor: pointer;
+    border-right: 1px solid #fff;
+    text-align: center;
+}
+
+.info{
+    float: left;
+    background-color: #ddd;
+    height: 200px;
+    width: 0;
+    display: none;
+}
+/*End Global Rulez*/
+

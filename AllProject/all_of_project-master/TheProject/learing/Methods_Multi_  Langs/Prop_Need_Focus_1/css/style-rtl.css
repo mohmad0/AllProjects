@@ -1,0 +1,13 @@
+.parent .child{
+
+	border-radius: 20px 0 0 20px ;
+	border-width: 0 5px 0 0;
+}
+
+.parent .child:after{
+	content: '';
+	position: absolute;
+	right: auto;
+	left: -30px;
+	border-color: transparent #ddd transparent transparent;
+}

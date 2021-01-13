@@ -1,0 +1,16 @@
+-
+    var myName = 'Mohmad <strong> Gamal </strong>'
+    var myAge = 23
+    
+doctype
+html
+    head
+        meta(name="name" content="content")
+        meta(charset="utf-8")
+        title The Page
+    body
+        .main
+            //- !{} This Mean ===> Scape This Will Not Convert [ gt And lt And So On ] And You Can Use Power Of Javascript
+            h1 My Name Is ==> !{myName.toUpperCase()}
+            //- #{} This Mean ===> UnScape This Will Convert [ gt And lt And So On ] And You Can Use Power Of Javascript
+            p My Age Is ==> #{myAge}

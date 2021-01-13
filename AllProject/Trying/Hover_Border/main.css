@@ -1,0 +1,155 @@
+body {
+  background-color: #333;
+  text-align: center;
+  padding-top: 50px;
+}
+
+a 
+{
+  display: inline-block;
+  width: 120px;
+  padding: 10px;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+  margin: 10px;
+  position: relative;
+
+}
+
+a:first-child
+{
+	background-color: #3992a4;
+}
+
+a:first-child:after
+{
+	content: '';
+	display: block;
+	height: 4px;
+	width: 20%;
+	position: absolute;
+	bottom:-7px;
+	right: 0px;
+	background-color: #3992a4;
+	transition: .5s;
+}
+
+a:first-child:before
+{
+	content: '';
+	display: block;
+	height: 4px;
+	width: 20%;
+	position: absolute;
+    top: -7px;
+    left: 0px;
+	background-color: #3992a4;
+	transition: .5s;
+}
+
+a:nth-child(2)
+{
+	background-color: #346789;
+}
+
+a:nth-child(2):after
+{
+	background-color: #346789;
+	transition: .5s;
+	content: '';
+	display: block;
+	height: 4px;
+	width: 20%;
+	position: absolute;
+	bottom:-7px;
+	right: 0px;
+}
+
+a:nth-child(2):before
+{
+	background-color: #346789;
+	transition: .5s;
+	content: '';
+	display: block;
+	height: 4px;
+	width: 20%;
+	position: absolute;
+    top: -7px;
+    left: 0px;
+}
+
+a:nth-child(3)
+{
+	background-color: #985747;
+}
+
+a:nth-child(3):after
+{
+	background-color: #985747;
+	transition: .5s;
+	content: '';
+	display: block;
+	height: 4px;
+	width: 20%;
+	position: absolute;
+	bottom:-7px;
+	right: 0px;
+}
+
+a:nth-child(3):before
+{
+	background-color: #985747;
+	transition: .5s;
+	content: '';
+	display: block;
+	height: 4px;
+	width: 20%;
+	position: absolute;
+    top: -7px;
+    left: 0px;
+}
+
+a:last-child
+{
+	background-color: #134124;
+}
+
+a:last-child:after
+{
+	background-color: #080;
+	transition: .5s;
+	content: '';
+	display: block;
+	height: 4px;
+	width: 20%;
+	position: absolute;
+	bottom:-7px;
+	right: 0px;
+}
+
+a:last-child:before
+{
+	background-color: #080;
+	transition: .5s;
+	content: '';
+	display: block;
+	height: 4px;
+	width: 20%;
+	position: absolute;
+    top: -7px;
+    left: 0px;
+}
+
+a:first-child:hover:after,
+ a:first-child:hover:before,
+ a:nth-child(2):hover:after,
+ a:nth-child(2):hover:before,
+ a:nth-child(3):hover:after,
+ a:nth-child(3):hover:before,
+ a:last-child:hover:after,
+ a:last-child:hover:before
+{
+	width: 100%
+}

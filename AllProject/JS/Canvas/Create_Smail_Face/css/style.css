@@ -1,0 +1,25 @@
+/*Start Global Rulez*/
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+
+
+/*End Global Rulez*/
+
+div{
+	width: 800px;
+	margin: 30px auto;
+}
+
+div canvas{
+	border: 5px solid #00f;
+    margin: 30px 25%;
+}

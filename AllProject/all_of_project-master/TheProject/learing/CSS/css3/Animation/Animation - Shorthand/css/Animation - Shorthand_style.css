@@ -1,0 +1,86 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* 
+	Animation: Name | Duration | Timing-Function | Delay | Iteration | Duration | Fill-Mode | Play-State ;
+
+*/
+
+.one
+{
+	width:200px ;
+	height:100px ;
+	top: 10px;
+	left:10px;
+	background-color:#f00 ;
+	position: absolute;
+	
+	animation: moving 4s ease 3s 3 alternate forwards running
+}
+
+.tow
+{
+	width:200px ;
+	height:100px ;
+	top: 10px;
+	left:220px;
+	background-color:#00f ;
+	position: absolute;
+
+	animation: moving 4s ease-in 3s 3 alternate backwards running
+}
+
+.three
+{
+	width:200px ;
+	height:100px ;
+	top: 10px;
+	left:430px;
+	background-color:#ff0 ;
+	position: absolute;
+
+	animation: moving 4s ease-out 3s 3 alternate both running
+}
+
+
+.four
+{
+	width:200px ;
+	height:100px ;
+	top: 10px;
+	left:640px;
+	background-color:#ff0 ;
+	position: absolute;
+
+	animation: moving 4s ease-in-out 3s 3 alternate both running
+}
+
+.five
+{
+	width:200px ;
+	height:100px ;
+	top: 10px;
+	left:850px;
+	background-color:#ff0 ;
+	position: absolute;
+
+	animation: moving 4s linear 3s 3 alternate both running
+}
+
+@keyframes moving {
+
+	0% {
+		top: 0;
+		
+	}
+
+	100% {
+		top: 450px;
+	}
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Scroll To Element</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<div id="mo-app" class="container">
+			<form action="">
+				<input
+					type="text"
+					placeholder="Type Your Task"
+					v-model="taskText"
+				/>
+				<button @click.prevent="addTask" :disabled="!taskText">
+					Add Task
+				</button>
+				<button class="delete-all" v-if="tasks.length > 1" @click="deleteAll">Delete All</button>
+			</form>
+			<div class="tasks-list" v-for="(task , index) in tasks">
+				<div
+					class="task-box"
+					@click="task.done = !task.done"
+					:style="{'text-decoration' : task.done ? 'line-through' : ''}"
+				>
+					{{ task.words }}
+				</div>
+				<span class="delete" @click.stop="deleteTask(index)">
+					Delete
+				</span>
+				<!-- stop === stopPropagation -->
+			</div>
+		</div>
+		<script src="js/vue.js"></script>
+		<script src="js/axios.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js" integrity="sha256-bd8XIKzrtyJ1O5Sh3Xp3GiuMIzWC42ZekvrMMD4GxRg=" crossorigin="anonymous"></script> -->
+		<script src="js/main.js"></script>
+	</body>
+</html>

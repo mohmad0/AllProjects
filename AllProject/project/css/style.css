@@ -1,0 +1,54 @@
+.parent 
+{
+	width: 1111px;
+	min-height: 400px;
+	background: #000;
+	margin-top: 5%;
+	margin-right: auto;
+	margin-left:auto;
+	margin-bottom:5%;
+	position: relative;
+}
+.result
+{
+	width: 26%;
+    height: 19%;
+    background: #fff;
+    position: absolute;
+    left: 32%;
+    border: 5px solid red;
+
+}
+.conditions
+{
+	width: 10%;
+	border:5px solid red;
+	position: absolute;
+    left: 61%;
+
+}
+.numbers{
+	width: 26%;
+    border: 5px solid red;
+    position: absolute;
+    top: 21%;
+    left: 32%;
+}
+.buttonup{
+	margin: 0 0 4% 5%
+}
+.buttonup button {
+	margin-left: 2%;
+	font-size: 10%
+}
+.buttondown{
+	margin: 0 0 4% 5%;
+	font-size: 10%
+}
+.buttondown button {
+	margin-left: 2%
+}
+button {
+	cursor: pointer;
+	
+}

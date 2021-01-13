@@ -1,0 +1,30 @@
+div{
+	@extend .mainColor;
+	@extend %mainBackColor;
+	color: #fff;
+	font-weight: bold;
+	.class1
+	{
+		@extend .mainColor;
+		@extend %mainBackColor;
+
+		h1
+		{
+			@extend .mainColor;
+			@extend %mainBackColor;
+			font-size: $mainFontSize * 2;
+		}
+	}
+	.class2
+	{
+		@extend .mainColor;
+		@extend %mainBackColor;
+
+		h1
+		{
+			@extend .mainColor;
+			@extend %mainBackColor;
+			font-size: $mainFontSize + 5;
+		}
+	}
+}

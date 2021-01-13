@@ -1,0 +1,77 @@
+form
+{
+	width: 500px;
+	margin: auto;
+}
+
+form > div {position: relative;}
+
+form input:focus{outline: none;}
+
+form input 
+{
+	width: 100%;
+	padding: 10px 0;
+	border: none;
+	border-bottom: 1px solid #ddd;
+}
+
+form .from-left input + .border
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #c23616;
+	width: 0;
+	height: 3px;
+	transition: .3s;
+}
+
+form .from-left input:focus + .border
+{
+	width: 100%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+form .from-right input + .border
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #c23616;
+	width: 0;
+	height: 3px;
+	transition: .4s;
+}
+
+form .from-right input:focus + .border
+{
+	width: 100%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+form .from-middle input + .border
+{
+	position: relative;
+}
+
+form .from-middle input + .border
+{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	background-color: #c23616;
+	width: 0;
+	height: 3px;
+	transition: .5s;
+}
+
+form .from-middle input:focus + .border
+{
+	left:0;
+	width: 100%;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */

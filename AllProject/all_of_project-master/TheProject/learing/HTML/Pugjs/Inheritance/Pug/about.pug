@@ -1,0 +1,21 @@
+//- This Will Inheratance All Main Page HTML
+extends main
+
+//- This Will Modifid On Title In About HTML Page
+block titlePage
+    title about us
+
+
+//- This Will Modifid On Links In About HTML Page
+block linkPage
+    //- This Will Include All Styles
+    include includes/style
+    //- This Will Added On All Styles
+    link(rel="stylesheet", href="style.css")
+
+//- This Will Modifid On Content In About HTML Page
+block contentPage
+    .main
+        .container
+            p This Page From Main
+    

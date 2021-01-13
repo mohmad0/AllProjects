@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Form Attributes - Min, Max, Step, Pattern </title>
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.min.js"></script> 
+		<![endif]-->
+		<link rel="stylesheet" href="css/style_New Tags 6.css" />
+	</head>
+	<body>
+
+		<!-- This For Cheking ===> https://caniuse.com/#search=dialog  -->
+
+		<!-- this for type mp3 ==> https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types -->
+		
+		<section>
+			<h1>New Input Fieldd</h1>
+			<form action="proc.php" method="get" enctype="">
+				<label>Text</label>
+				<input type="text"  		 name="Text" autoFocus="on">
+				<label>Number</label>
+				<input type="number"  		 name="Number" min="5" max="85" step="10">
+				<label>Pattern</label>
+				<input type="text" pattern="[A-Za-z]{8}" required> <!-- pattern ==> is use in [ text , search , tel , email , url ]-->
+				<input type="submit" value="send">
+				<input type="submit" formaction="other.php" formmethod="post" value="submit">
+			</form>
+		</section>
+
+	</body>
+</html>
+</html>

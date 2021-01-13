@@ -1,0 +1,43 @@
+@mixin mytransition($moveing) {
+	-webkit-transition: all 1s $moveing;
+	-moz-transition: all 1s $moveing;
+	-o-transition: all 1s $moveing;
+	transition: all 1s $moveing;
+}
+
+@mixin myBorderRedius($bordSize) { // This Will Use Alot Of Once
+	-webkit-border-radius: $bordSize;
+	-moz-border-radius: $bordSize;
+	-o-border-radius: $bordSize;
+	border-radius: $bordSize;
+}
+
+.class1{
+	@include mytransition(ease);
+
+	@include myBorderRedius(10px);
+}
+
+.class2{
+	@include mytransition(ease-in);
+
+	@include myBorderRedius(10px);
+}
+
+.class1{
+	@include mytransition(ease-out);
+
+	@include myBorderRedius(10px);
+}
+
+.class2{
+	@include mytransition(ease-in-out);
+
+	@include myBorderRedius(10px);
+}
+
+.class1{
+	@include mytransition(linear);
+
+	@include myBorderRedius(10px);
+}

@@ -1,0 +1,46 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+	font-size: 18px;
+}
+
+.container{
+    width: 1200px;
+	margin: 30px auto;
+}
+
+.container .question-box:not(:last-child){
+    border-bottom: 1px solid #eee;
+}
+
+.container .question-box h3{
+    margin: 0;
+    padding: 15px;
+    background-color: #dfdfdf;
+}
+
+.container .question-box h3:hover{
+    cursor: pointer;
+}
+
+.container .question-box .question-reply{
+    background-color: #efefef;
+    padding: 15px;   
+}
+
+.container .question-box .question-reply p{
+    margin: 0;
+}
+
+/*End Global Rulez*/
+

@@ -1,0 +1,69 @@
+body
+{
+	counter-reset: 
+					mohmad-counter 2
+					ahmed-counter 3;
+}
+
+/*
+	counter-reset:[Name_counter + the reset number that will start from it] [Name_counter + the reset number that will start from it] ...;
+
+
+*/
+
+
+ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+
+ul li
+{
+	padding: 10px
+}
+
+/*
+	counter-increment:Name_counter + the nuber that will be added;
+
+	counter(Name_counter, list-style-type(optional));
+
+*/
+
+ul li:before
+{
+	counter-increment: mohmad-counter 2;
+	content: 'ID ' counter(mohmad-counter, lower-greek);
+}
+
+.test div:before
+{
+	counter-increment: ahmed-counter 3;
+	content: 'ID ' counter(ahmed-counter);
+}
+/*
+
+	 Partial list of types 
+	list-style-type: disc;
+	list-style-type: circle;
+	list-style-type: square;
+	list-style-type: decimal;
+	list-style-type: georgian;
+	list-style-type: trad-chinese-informal;
+	list-style-type: kannada;
+
+	 <string> value
+	list-style-type: '-';
+
+	 Identifier matching an @counter-style rule 
+	list-style-type: custom-counter-style;
+
+	 Keyword value 
+	list-style-type: none;
+
+	 Global values 
+	list-style-type: inherit;
+	list-style-type: initial;
+	list-style-type: unset;
+*/

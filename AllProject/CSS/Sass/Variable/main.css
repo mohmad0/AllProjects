@@ -1,0 +1,13 @@
+.class1 {
+  color: red;
+  background-color: #335;
+  font-size: 30;
+}
+
+.class1 {
+  border: 2px solid red;
+  outline: 2px solid #335;
+  font-size: 30;
+}
+
+/*# sourceMappingURL=main.css.map */

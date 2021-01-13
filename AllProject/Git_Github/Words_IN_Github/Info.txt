@@ -1,0 +1,25 @@
+
+
+Words You Will Hear:
+--------------------
+1- Repository [ Repo ]
+2- Branch
+3- Local Repo
+4- Remote Repo
+5- Commit [ Snapshot Or Checkpoint In Your Local Repo ]
+6- Clone [ Copy From Local Or Remote ]
+7- Push [ Upload Local Change To Remote ]
+8- Pull [ You Pull Changes From Remote Repo To Your Local ]
+9- Pull Request [ Tell Other About Your Changes To Pull It From Local To Remote
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Important Notes:
+----------------
+
+1- Create Repository For Every Project
+2- Create A New Branch For Every Feature Or Enhancenment
+3- No Need To Connect To Remote Repo When Working
+4- Anyone Can Push And Pull Depend On Permissions

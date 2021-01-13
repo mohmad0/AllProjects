@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Scroll To Element</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<!-- Start NavBar -->
+		<ul class="navbar">
+			<li><a href="#">Home</a></li>
+			<li><a href="#" data-scroll="#about-us">About Us</a></li>
+			<li><a href="#" data-scroll="#services">Services</a></li>
+			<li><a href="#" data-scroll="#solutions">Solutions</a></li>
+			<li><a href="#" data-scroll="#products">Products</a></li>
+			<li><a href="#" data-scroll="#contact-us">Contact Us</a></li>
+		</ul>
+		<!-- End NavBar -->
+
+		<!-- Start Section -->
+		<div id="home" class="block">
+			<h2>Home</h2>
+			<span class="show-popup" data-popup=".first-popup">Show 1st Popup</span>
+			<span class="show-popup" data-popup=".second-popup">Show 2st Popup</span>
+		</div>
+		<div id="about-us" class="block">
+			<h2>About Us</h2>
+		</div>
+		<div id="services" class="block">
+			<h2>Services</h2>
+		</div>
+		<div id="solutions" class="block">
+			<h2>Solutions</h2>
+		</div>
+		<div id="products" class="block">
+			<h2>Products</h2>
+		</div>
+		<div id="contact-us" class="block">
+			<h2>Contact Us</h2>
+		</div>
+		<!-- End Section -->
+
+
+
+
+
+
+		<!-- Start Popup -->
+		<div class="popup first-popup">
+			<div class="inner">
+				<h2>This Is 1nd Popup</h2>
+				<p>Mohmad Gamal Ali Mohmad Gamal Ali Mohmad Gamal Ali Mohmad Gamal Ali Mohmad Gamal Ali Mohmad Gamal Ali Mohmad Gamal Ali</p>
+				<button class="close">Close</button>
+			</div>
+		</div>
+
+		<div class="popup second-popup">
+			<div class="inner">
+				<h2>This Is 2nd Popup</h2>
+				<p>Mohmad Gamal Ali Mohmad Gamal Ali Mohmad Gamal Ali Mohmad Gamal Ali Mohmad Gamal Ali Mohmad Gamal Ali Mohmad Gamal Ali</p>
+				<button class="close">Close</button>
+			</div>
+		</div>
+		<!-- End Popup -->
+
+
+
+
+
+
+
+		<!-- Start Scroll To Top -->
+		<a class="scroll-to-top" href="#">
+			<i class="fa fa-chevron-up" aria-hidden="true"></i>
+		</a>
+		<!-- End Scroll To Top -->
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

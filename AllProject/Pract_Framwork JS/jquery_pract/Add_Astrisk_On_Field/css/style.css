@@ -1,0 +1,104 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+
+.scroll-to-top{
+	background-color: #333;
+	color: #fff;
+	display: inline-block;
+	padding: 0 5px 3px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+}
+/*End Global Rulez*/
+
+/*Start Header*/
+
+.navbar{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	color: #eee;
+	text-align: center;
+}
+
+.navbar li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.navbar li a{
+	
+	color: #eee;
+}
+
+/*End Header*/
+
+/*Start Section*/
+.block{
+	height: 1200px;
+	background-color: #eee;
+	margin-bottom: 20px;
+	padding: 30px 0;
+	text-align: center;
+}
+/*End Section*/
+
+/*Start Our Form*/
+.our-form{
+	width: 800px;
+	margin: 50px auto;
+}
+
+.our-form form input,
+.our-form form textarea{
+	margin-bottom: 20px;
+	width: 500px;
+	margin-right: 20px;
+}
+
+.our-form form input[type="text"],
+.our-form form input[type="email"],
+.our-form form input[type="password"],
+.our-form form textarea{
+		
+	padding: 10px;
+}
+
+.our-form form textarea{
+	height: 180px;
+}
+
+.our-form .the-msg{
+	display: none;
+    background-color: #E91E63;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.our-form textarea ~ .the-msg{
+	margin-top: 126px;
+    margin-right: 105px;
+    float: right;
+}
+
+.our-form form input[type="submit"]{
+	padding: 15px;
+	font-size: 16px;
+}
+/*End Our Form*/

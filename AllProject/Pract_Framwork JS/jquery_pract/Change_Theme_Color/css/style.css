@@ -1,0 +1,168 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+
+.scroll-to-top{
+	background-color: #333;
+	color: #fff;
+	display: inline-block;
+	padding: 0 5px 3px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+}
+/*End Global Rulez*/
+
+/*Start Header*/
+
+.navbar{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	color: #eee;
+	text-align: center;
+}
+
+.navbar li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.navbar li a{
+	
+	color: #eee;
+}
+
+/*End Header*/
+
+/*Start Section*/
+.block{
+	height: 1200px;
+	background-color: #eee;
+	margin-bottom: 20px;
+	padding: 30px 0;
+	text-align: center;
+}
+/*End Section*/
+
+/*Start Progress Bar*/
+.fixed-menu{
+	background-color: #333;
+	color: #eee;
+	padding: 10px;
+	position: fixed;
+	left: -220px;
+	top: 0;
+	height: 100vh;
+	width: 220px;
+	z-index: 9999;
+}
+
+.fixed-menu .fa-gear{
+	position: absolute;
+	right: -30px;
+	top: 90px;
+	background-color: #333;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 0 10px 10px 0;
+	cursor: pointer;
+}
+
+.fixed-menu .change-colors li {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.fixed-menu .change-colors [data-color="blue"] {
+
+	background-color: blue
+}
+
+.fixed-menu .change-colors [data-color="orange"] {
+
+	background-color: orange
+}
+
+.fixed-menu .change-colors [data-color="green"] {
+
+	background-color: green
+}
+
+.fixed-menu .change-colors [data-color="pink"] {
+
+	background-color: pink
+}
+
+
+/*End Progress Bar*/
+
+
+/*Start Website Theme Colors*/
+
+ [data-default-color="blue"] .skin-color {
+
+	color: blue
+}
+
+ [data-default-color="blue"] .skin-background {
+
+	background-color: blue;
+	color: #fff;
+}
+
+ [data-default-color="orange"] .skin-color {
+
+	color: orange
+}
+
+ [data-default-color="orange"] .skin-background {
+
+	background-color: orange;
+	color: #fff;
+}
+
+
+ [data-default-color="green"] .skin-color {
+
+	color: green
+}
+
+ [data-default-color="green"] .skin-background {
+
+	background-color: green;
+	color: #fff;
+}
+
+
+ [data-default-color="pink"] .skin-color {
+
+	color: pink
+}
+
+
+ [data-default-color="pink"] .skin-background {
+
+	background-color: pink;
+	color: #fff;
+}
+
+/*End Website Theme Colors*/

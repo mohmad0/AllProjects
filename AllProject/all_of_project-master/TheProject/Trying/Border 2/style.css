@@ -1,0 +1,111 @@
+body {
+  background-color: #333;
+}
+
+.image-all-together {
+  width: 713px;
+  height: 490px;
+  margin: 20px auto;
+  color: #FFF;
+  position: relative;
+}
+
+.image-all-together span
+{
+	position: absolute;
+	background-color: orange;
+	transition: all .3s ease-in-out;
+}
+
+.image-all-together .one
+{
+	left:0 ;
+	top: 0;
+	width: 3px;
+	height: 0;
+	transition-delay:.8s;
+}
+
+.image-all-together .two
+{
+	left:0 ;
+	bottom:0 ;
+	width:0;
+	height:5px;
+	transition-delay:.6s; 
+}
+
+.image-all-together .three
+{
+	right:0 ;
+	bottom:0 ;
+	width:3px;
+	height: 0;
+	transition-delay:.4s;
+}
+
+.image-all-together .four
+{
+	
+	right:0 ;
+	top:0 ;
+	width:0 ;
+	height:5px;
+	transition-delay:.2s; 
+}
+
+.image-all-together img
+{
+	opacity: 1;
+	transition-delay:1.2s;
+	transition-duration:0.3s 
+}
+
+.image-all-together:hover img
+{
+	opacity: 0.1;
+	z-index: 1;
+}
+
+
+.image-all-together h3
+{
+	position: absolute;
+	top: 200px;
+	left: 280px;
+	visibility: hidden;
+
+	
+}
+
+.image-all-together:hover h3
+{
+	visibility:visible;
+	z-index: 2;
+	transition-delay:1.2s;
+	
+}
+
+.image-all-together:hover .one
+{
+	height: 100%;
+	transition-delay:.2s;
+}
+
+.image-all-together:hover .two
+{
+	transition-delay:.4s;
+	width:100% ;
+}
+
+.image-all-together:hover .three
+{
+	transition-delay:.6s;
+	height: 100%;
+}
+
+.image-all-together:hover .four
+{
+	transition-delay:.8s;
+	width:100% ;
+}

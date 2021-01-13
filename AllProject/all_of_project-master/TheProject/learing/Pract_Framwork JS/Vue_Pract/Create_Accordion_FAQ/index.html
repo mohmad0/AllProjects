@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Scroll To Element</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="mo-app" class="container">
+			<div class="question-box" v-for="question in questions">
+				<h3 v-text="question.title" @click="question.open === false ? question.open = true : question.open = false"></h3> <!-- Anther Method: ==> question.open != question.open -->
+				
+				<div class="question-reply" v-show="question.open">
+					<p> {{ question.reply }} </p>
+				</div>
+			</div>
+		</div>
+		<script src="js/vue.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

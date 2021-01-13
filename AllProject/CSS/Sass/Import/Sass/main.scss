@@ -1,0 +1,38 @@
+$mainColor:red;
+$mainFontSize:20px;
+
+// This Is Global Importing
+@import "body"; // If You Not Want Version CSS File ===> Make The File This ==> [ _name File Ex: _body.scss ]
+
+
+.mainColor // This IS For Extend && This Is Will Showing In Document Page In Browser
+{
+	color: $mainColor;
+}
+
+%mainBackColor // This IS For Placeholder Selector  && This Is Will Not Showing In Document Page In Browser
+{
+	background-color: $mainColor;
+}
+
+
+// This Is Global Importing
+@import "div"; // If You Not Want Version CSS File ===> Make The File This ==> [ _name File Ex: _div.scss ]
+
+
+
+header
+{
+	@import "div"; // This Is Local Importing
+	color:#fff;
+	background-color: red;
+	text-align: center;
+}
+
+section
+{
+	@import "div"; // This Is Local Importing
+	color:#fff;
+	background-color: red;
+	text-align: center;
+}

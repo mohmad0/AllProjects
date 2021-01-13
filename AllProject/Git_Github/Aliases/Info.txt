@@ -1,0 +1,19 @@
+
+
+Words You Will Hear:
+--------------------
+1- git config --global alias.st status ==>  [ This Will Make Alias For Status ==> { st == status } ]
+2- git config --global alias.cm "commit -m" [ This Will Make Alias For Commit -m ==> { cm === commit -m }] This If Is Found Spaces
+3- git config --global --edit ==> This To Edit From File
+4- git alias list ==> Wright This In Google To Get More Aliases From Enter Net
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Important Notes:
+----------------
+
+1- Create Repository For Every Project
+2- Create A New Branch For Every Feature Or Enhancenment
+3- No Need To Connect To Remote Repo When Working
+4- Anyone Can Push And Pull Depend On Permissions

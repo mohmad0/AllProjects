@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Scroll To Element</title>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<div id="mo-app" class="container" >
+			<form>
+				<h4>Wright Your Message ( {{ maxlength }} Characters Allowed )</h4>
+				<textarea
+					@input="countChar"
+					v-model="msg"
+					:maxlength="maxlength"
+				></textarea>
+				<span class="counter" :class="{'zero': reachZero}"> Left | <span> {{ remChar }} </span> </span>
+			</form>
+		</div>
+		<script src="js/vue.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

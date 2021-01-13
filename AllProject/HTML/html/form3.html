@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> form 3 ==> [ textarea , filedset , legend , select , option ] </title>
+	</head>
+	<body>
+		<form name="register"> <!-- action="post.php" method="get" ===> this use in programing -->
+			<fieldset>
+				<legend>your info</legend>
+				<label>username</label>
+				<input type="text" name="username">
+
+				<br>
+
+				<label>password</label>
+				<input type="password" name="password">
+
+				<br>
+
+				<label>your message</label> <br>
+				<textarea rows="5" cols="60" readonly> hello mohmad</textarea> 
+			</fieldset>
+			<fieldset>
+				<legend>chose info</legend>
+				<input type="checkbox">
+				<label>remmber my</label>
+
+				
+				<input type="file">
+			
+				<br>
+				<input type="radio" name="browser" value="chrom"> google chrome <br>
+
+				<input type="radio" name="browser" value="firefox"> firefox <br>
+
+				<input type="radio" name="browser" value="opera"> opera <br>
+				<select name="time" size="3"> <!-- you can adding this ==> disabled or size="" or multiple -->
+					<optgroup label="near time">
+						<option>now</option> <!-- disabled or selected or value=''-->
+						<option> tomwwro</option>
+						<option> ater a week</option>
+					</optgroup>
+					<optgroup label="far time">
+						<option>1 year</option>
+						<option>2 year</option>
+						<option>3 year</option>
+					</optgroup>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>send info</legend>
+				<input type="reset" value="Restor Defult">
+
+				<input type="submit" value="sign up">
+
+				<input type="button" value="Say Hello" name="say_hello">
+			</fieldset>
+		</form>
+	</body>
+</html>

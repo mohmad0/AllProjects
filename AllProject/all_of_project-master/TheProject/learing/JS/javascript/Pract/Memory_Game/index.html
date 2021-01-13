@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Memory Game </title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<div class="control-buttons">
+			<span>Start Game</span>
+		</div>
+
+		<div class="info-container">
+			<div class="name">
+				Hello : <span></span>
+			</div>
+			<span class="count"></span>
+			<div class="tries">
+				Wrong Tries : <span class="Wrong">0</span>
+				<br/>
+				Won Tries : <span class="Won">0</span>
+			</div>
+		</div>
+
+		<div class="memory-game-blocks">
+			<div class="game-block" data-prand="01">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="Images/01.png">
+				</div>
+			</div>
+
+			<div class="game-block" data-prand="01">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="Images/01.png">
+				</div>
+			</div>
+
+			<div class="game-block" data-prand="02">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="Images/02.png">
+				</div>
+			</div>
+
+			<div class="game-block" data-prand="02">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="Images/02.png">
+				</div>
+			</div>
+
+			<div class="game-block" data-prand="03">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="Images/03.png">
+				</div>
+			</div>
+
+			<div class="game-block" data-prand="03">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="Images/03.png">
+				</div>
+			</div>
+			<div class="game-block" data-prand="04">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="Images/04.png">
+				</div>
+			</div>
+
+			<div class="game-block" data-prand="04">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="Images/04.png">
+				</div>
+			</div>
+
+			<div class="game-block" data-prand="05">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="Images/05.png">
+				</div>
+			</div>
+
+			<div class="game-block" data-prand="05">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="Images/05.png">
+				</div>
+			</div>
+
+			<div class="game-block" data-prand="06">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="Images/06.png">
+				</div>
+			</div>
+
+			<div class="game-block" data-prand="06">
+				<div class="face front"></div>
+				<div class="face back">
+					<img src="Images/06.png">
+				</div>
+			</div>
+		</div>
+
+		<audio id="fail" src="audio/lose.wav" preload="auto"></audio>
+		<audio id="success" src="audio/win.wav" preload="auto"></audio>
+		<audio id="game_win" src="audio/game_win.wav" preload="auto"></audio>
+		<script src="main.js"></script>
+	</body>
+</html>

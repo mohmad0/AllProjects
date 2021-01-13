@@ -1,0 +1,39 @@
+{
+    "Username": "mohmad",
+    "Email": "mohmadailsia@gmail.com",
+    "Addersess": [
+        "egypt",
+        "USA",
+        "KSA"
+    ],
+    "age": 22,
+    "working": false,
+    "iddenty": null,
+    "Skills": [
+        [
+            "HTML",
+            "Pugjs",
+            "Hamel"
+        ],
+        [
+            "CSS",
+            "Sass",
+            "Less"
+        ],
+        [
+            "JS",
+            "Vue js",
+            "React js"
+        ]
+    ],
+    "Progress": [
+        {
+            "HTML": 80,
+            "Pugjs": 70
+        },
+        {
+            "CSS": 90,
+            "Sass": 60
+        }
+    ]
+}

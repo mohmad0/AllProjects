@@ -1,0 +1,11 @@
+div
+{
+	background: #ddd;
+	padding: 10px;
+	margin: 10px;
+
+	border-width: 5px 6px 7px 8px; /* top right bottom left */
+	border-style: groove inset outset; /* found another value in this  */ 
+	border-color: #ddd
+	/* border:5px solid #ddd; */
+}

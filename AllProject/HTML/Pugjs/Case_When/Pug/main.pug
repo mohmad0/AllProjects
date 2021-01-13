@@ -1,0 +1,33 @@
+//- The Files includes Are connected 
+include includes/mixin
+doctype
+html
+    head
+        meta(name="name" content="content")
+        meta(charset="utf-8")
+        block titlePage
+            title The Case When
+        //- The Files includes Are connected 
+        include includes/style
+    body
+        block contentPage
+          .main
+              +skilList
+              //- #[] This ===> For I Put Element On It ==>[ <strong> , <b> , <span> , .... ] 
+              p I Love #[b(class="main" , id="main") Maongo] Hello Worlled
+
+              - var myNumber = 1
+                //- This Method To Wright Case
+              case myNumber
+                when 0: p Thare Is No Numbers
+                when 1: p Thare Is One Numbers
+                default: p The Numbers Is #{myNumber}
+
+              - var myNumber = 9
+                //- This Is Onther Method To Wright Case
+              case myNumber
+                when 0
+                 p Thare Is No Numbers
+                when 1
+                 p Thare Is One Numbers
+                default: p The Numbers Is #{myNumber}

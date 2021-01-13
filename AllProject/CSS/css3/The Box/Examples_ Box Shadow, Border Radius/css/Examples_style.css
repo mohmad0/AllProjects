@@ -1,0 +1,37 @@
+div
+{
+	width: 600px;
+	margin: 0 auto;
+
+	background: #ccc;
+}
+div img
+{
+	margin: 55px;
+	padding: 3px;
+	background: #fff;
+	border-radius: 50%;
+	border: 5px solid #aaa;
+	
+}
+
+
+div img:hover
+{
+	-webkit-box-shadow: 
+				7px 7px 30px #808080,
+				-7px -7px 30px #808080;
+	-moz-box-shadow: 
+				7px 7px 30px #808080,
+				-7px -7px 30px #808080;
+	-o-box-shadow: 
+				7px 7px 30px #808080,
+				-7px -7px 30px #808080;
+	-ms-box-shadow: 
+				7px 7px 30px #808080,
+				-7px -7px 30px #808080
+
+	box-shadow: 
+				7px 7px 30px #808080,
+				-7px -7px 30px #808080
+}

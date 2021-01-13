@@ -1,0 +1,29 @@
+	Calculate_Letter_Textarea
+
+	Calculate_Product_Price
+	
+	Color_Switcher
+
+	Convert_Title_To_Slug
+
+	Create_Accordion_FAQ
+
+	Create_Form
+
+	Create_Gradient_Generator
+
+	Create_Tabs
+
+	Create_Todo_List
+
+	Disabled_Enabled_Button_In_Form
+
+	Get_Repos_By_Axios
+
+	Show_Hide_Message_With_Transition
+
+	Show_Hide_Password
+
+	Show_Random_Image_From_Images
+
+	Toggle_Class_With_All_Methods

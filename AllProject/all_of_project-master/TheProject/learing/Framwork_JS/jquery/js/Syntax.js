@@ -1,0 +1,14 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		 	//									[ jQuery In Arabic ] #02 - Syntax
+
+$(document).ready(function(){ 
+	//$('p').hide()
+});
+
+// olso you can use this 
+
+
+$(function(){ // this ===>  $(document).ready(function()
+	//$('p').hide()
+})

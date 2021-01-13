@@ -1,0 +1,16 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+img:hover
+{
+	transform: matrix(2,0,0.5,2,500, 200);
+}
+
+/*
+	transform: matrix(scaleX,  skewY, SkewX, scaleY, translateX, translateY)
+*/

@@ -1,0 +1,24 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div
+{
+	border:2px solid red;
+}
+
+[class*='mohmad'] /* [ ^= ] this will search about any class is start ===> [ mohmad ] */
+{
+	color: green
+}
+
+[class*='ah'] /* [ ^= ] this will search about any class is start ===> [ ah ] */
+{
+	color: green
+}
+
+/* [attribute^='value'] attribute ===> this === class or href or alt or title 0r ... */

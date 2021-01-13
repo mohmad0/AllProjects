@@ -1,0 +1,31 @@
+
+
+.parent span /* this mean All Of Any Span In parent Class Do This On It  */
+{
+	color: red;
+	background: black
+}
+
+
+.Child > p /* this mean The Direct P In Child Class && Child Class Is A Parent For It ==> Do This On It  */
+{
+	color: blue;
+	background: black
+}
+
+.Child p + div /* this mean Any Div Is Next For P In Child Class Do This On It But This Is Doing Only For One Div && Not All Div */
+{
+	color:green;
+	background: #ddd
+}
+
+.parent div ~ p /* this mean Any P Is A Brather For div && The P Is Next For Div && Have The Same Parent In parent Class Do This On It  */
+{
+	color:#fff;
+	background: red
+}
+
+.Child * /* this mean All Of Any Element In Child Class Do This On It  */
+{
+	border: 2px solid green;
+}

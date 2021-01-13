@@ -1,0 +1,47 @@
+// This Is List 
+$listImages: facebook youtube twitter codepen instagram yahoo;
+$listColor: #fff #334 #456 #213 #888 #345523;
+$listHover: red green black yellow brown pink;
+
+// Normal Each
+@each $img in $listImages{ // This Will Loop On ==> [ $listImages ]
+	.ico-#{$img}{
+		background-image: url('Images/image_#{$img}.pnp');
+
+	}
+}
+
+
+// Advanced Each
+@each $img  	   , $color     , $hover in 
+
+	  (facebook , #fff , red),
+	  (youtube , #334 , green),
+	  (twitter , #213 , black),
+	  (codepen , #456 , yellow),
+	  (instagram , #345523 , pink),
+	  (yahoo , #213 , black){ // This Will Loop On ==> [ $img => $listImages , $color => listColor , $hover => listHover]
+	.ico-#{$img}{
+		background-image: url('Images/image_#{$img}.pnp');
+		color: $color;
+		border:2px solid $color;
+		&:hover{
+			background-color: $hover;
+		}
+	}
+}
+
+// Each With Map :
+	
+		//	==> $Map:($key:$value ,$key:$value , $key:$value , ...);
+
+$headFontSizeAsMap:(h1: 50px , h2: 40px , h3: 30px , h4: 20px , h5: 10px);
+
+@each $element , $sizeFont in $headFontSizeAsMap {
+
+	#{$element}{
+		font-size: $sizeFont;
+		color: #fff;
+		text-align: center;
+	}
+}

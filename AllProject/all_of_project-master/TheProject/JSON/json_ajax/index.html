@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> JSON </title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div id="data">
+		</div>
+		<script src="jquery-3.2.0.min.js"></script>
+		<script>
+			$(function (){
+				$.ajax({
+					url: "https://api.github.com/users/ElzeroWebSchool/repos",
+					dataType: "json",
+					cache: false,
+					success: function(data, status) {
+						$.each(data, function(index){
+							$('#data').append('<br>' + data[index].username + '<br>');
+						});
+					},
+					error: function(xhr, textStatus, err) {
+						console.log(xhr);
+						console.log(textStatus);
+						console.log(err);
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

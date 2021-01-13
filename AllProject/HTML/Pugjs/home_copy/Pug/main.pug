@@ -1,0 +1,67 @@
+//- All Files That Will Be called
+include includes/mixin
+include includes/header
+doctype
+html(lang="en")
+    +myheader
+    body
+        // The Header With Image Background And Links
+        header
+            nav
+                h1 Choose Your Dreem House
+                .container
+                    |
+                    |
+                    a(href="#") Your House
+                    |
+                    |
+                    a(href="contact_us/contact.html") Contact Us
+                    |
+                    |
+                    a(href="about/about.html") About Us
+                    |
+                    |
+                    a(href="more_design/more.html") More Design
+                    |
+                    |
+                    a(href="#") Home
+                    |
+                    |
+        section.your_house
+            // The Title Of My Site
+            span: h2 This Is Your Dreem House
+            // This Is My Images In The Main Page    
+            aside.first_three_house
+                div: a(href="in_side_home/home1.html"): img(src="images/home/home1.jpg")
+                div: a(href="in_side_home/home2.html"): img(src="images/home/home2.jpg")
+                div: a(href="in_side_home/home3.html"): img(src="images/home/home3.jpg")
+            aside(class="first_second_house tow")
+                a(href="in_side_home/home4.html"): img(src="images/home/home4.jpg")
+                a(href="in_side_home/home5.html"): img(src="images/home/home5.jpg")
+
+            aside.first_three_house
+                div: a(href="in_side_home/home6.html"): img(src="images/home/home6.jpg")
+                div: a(href="in_side_home/home7.html"): img(src="images/home/home7.jpg")
+                div: a(href="in_side_home/home8.html"): img(src="images/home/home8.jpg")
+            
+            aside(class="first_second_house tow")
+                a(href="in_side_home/home9.html"): img(src="images/home/home9.jpg")
+                a(href="in_side_home/home8.html"): img(src="images/home/home8.jpg")
+            
+            aside.our_clients
+                div: img(src="images/client1.png" alt="client1")
+                div: img(src="images/clients.png" alt="clients")
+                div: img(src="images/DAAD.png" alt="DAAD")
+                div: img(src="images/demand.png" alt="demand")
+                div: img(src="images/Google-Cloud.png" alt="Google-Cloud")
+                div: img(src="images/logo-web-design.png" alt="logo-web-design")
+                div: img(src="images/mattel.png" alt="mattel")
+                div: img(src="images/nokia.png" alt="nokia")
+        
+            +footer
+        +copyright
+        
+        
+
+
+        

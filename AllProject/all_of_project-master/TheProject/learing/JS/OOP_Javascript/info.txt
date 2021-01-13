@@ -1,0 +1,24 @@
+	Defining_Object_With_Object_Literals
+	
+	Dot_Notation VS Bracket_Notation
+
+	Defining_Object_With_New_Keyword
+
+	Defining_Object_With_Object_Create
+
+	Defining_Object_With_Object_Assign
+
+	Delete_Operator
+
+	For_In_Loop
+
+	Constructor_Function
+
+	Prototype
+
+	Class
+
+	Metadata_Descriptor
+
+	End_Of_Course_Important
+

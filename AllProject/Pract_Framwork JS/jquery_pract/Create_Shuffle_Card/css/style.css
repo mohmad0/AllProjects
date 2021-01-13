@@ -1,0 +1,104 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+
+.scroll-to-top{
+	background-color: #333;
+	color: #fff;
+	display: inline-block;
+	padding: 0 5px 3px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+}
+/*End Global Rulez*/
+
+/*Start Header*/
+
+.navbar{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	color: #eee;
+	text-align: center;
+}
+
+.navbar li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.navbar li a{
+	
+	color: #eee;
+}
+
+/*End Header*/
+
+/*Start Section*/
+.block{
+	height: 1200px;
+	background-color: #eee;
+	margin-bottom: 20px;
+	padding: 30px 0;
+	text-align: center;
+}
+/*End Section*/
+
+/*Start Shuffle Cards*/
+.cards{
+
+	position: relative;
+	min-height: 300px;
+	z-index: 1;
+}
+
+.cards .card{
+
+	width: 150px;
+	height: 150px;
+	border:5px solid #333;
+	position: absolute;
+	left: 50%;
+	margin-left: -75px;
+	cursor: pointer;
+}
+
+.cards .card-one{
+	background-color: #F79F1F;
+}
+.cards .card-tow{
+	background-color: #EE5A24;
+}
+.cards .card-three{
+	background-color: #EA2027;
+}
+.cards .card-four{
+	background-color: #A3CB38;
+}
+.cards .card-five{
+	background-color: #009432;
+}
+.cards .card-six{
+	background-color: #006266;
+}
+.cards .card-seven{
+	background-color: #0652DD;
+}
+.cards .card-eight{
+	background-color: #1B1464;
+}
+/*End Shuffle Cards*/

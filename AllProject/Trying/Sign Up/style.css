@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url('nuture2.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.sign-up-form{
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	background-color:#ffffff52;
+	width: 300px;
+	padding: 20px;
+	margin:8% auto 0;
+	text-align: center;
+}
+
+.sign-up-form img{
+	border-radius: 50%;
+	margin-top: -100px;
+}
+
+.sign-up-form h1{
+	margin-bottom:30px;
+	color: #1c8adb;
+	text-align: center;
+}
+
+.sign-up-form .inputBox{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border:1px solid #999;
+	outline: none;
+}
+
+.sign-up-form .signup-btn{
+	width: 100%;
+	color: #fff;
+	background-color:#e4e4e4;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.sign-up-form .signup-btn.first{
+	background-color:#1c8adb;
+}
+
+.sign-up-form .signup-btn.last{
+	background-color:#21afde;	
+}
+
+.sign-up-form hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*width: 80%;*/
+}
+
+.sign-up-form .or{
+	background-color: #737b75;
+	color: #fff;
+	width: 30px;
+	margin: -29px auto 10px;
+}
+
+.sign-up-form p a{
+	text-decoration: none;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label{ /* Olse If The Input Is Has Words Will Be Do This required */
+	top: -18px;
+	left: 0;
+	font-weight: bold;
+	color:  #03a9f4;
+	font-size: 12px;
+}
+
+.box input[type="submit"]{
+	background: transparent;
+	border:none;
+	outline: none;
+	color: #fff;
+	/*background-color: #03a9f4;*/
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}

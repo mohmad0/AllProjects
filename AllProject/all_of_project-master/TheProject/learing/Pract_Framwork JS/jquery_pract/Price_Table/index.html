@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Scroll To Element</title>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<!-- Start NavBar -->
+		<ul class="navbar">
+			<li><a href="#">Home</a></li>
+			<li><a href="#" data-scroll="#about-us">About Us</a></li>
+			<li><a href="#" data-scroll="#services">Services</a></li>
+			<li><a href="#" data-scroll="#solutions">Solutions</a></li>
+			<li><a href="#" data-scroll="#products">Products</a></li>
+			<li><a href="#" data-scroll="#contact-us">Contact Us</a></li>
+		</ul>
+		<!-- End NavBar -->
+
+		<!-- Start Section -->
+		<div id="home" class="block">
+			<h2>Home</h2>
+
+			<!-- Start Summary Table -->
+			<div class="container">
+				<table class="summary">
+					<tr>
+						<td>Name</td>
+						<td>Value</td>
+						<td>Price</td>
+					</tr>
+					<tr>
+						<td>Data One</td>
+						<td>10 Items</td>
+						<td class="price">100</td>
+					</tr>
+					<tr>
+						<td>Data Tow</td>
+						<td>5 Items</td>
+						<td class="price">80</td>
+					</tr>
+					<tr>
+						<td>Data Three</td>
+						<td>1 Items</td>
+						<td class="price">20</td>
+					</tr>
+					<tr>
+						<td>Data Four</td>
+						<td>20 Items</td>
+						<td class="price">200</td>
+					</tr>
+					<tr>
+						<td>Data Five</td>
+						<td>2 Items</td>
+						<td class="price">28</td>
+					</tr>
+					<tr>
+						<td colspan="2">Total</td>
+						<td class="the-total"></td>
+					</tr>
+				</table>
+			</div>
+			<!-- End Summary Table -->
+		</div>
+		<div id="about-us" class="block">
+			<h2 class="skin-background">About Us</h2>
+		</div>
+		<div id="services" class="block">
+			<h2 class="skin-background">Services</h2>
+		</div>
+		<div id="solutions" class="block">
+			<h2 class="skin-background">Solutions</h2>
+		</div>
+		<div id="products" class="block">
+			<h2 class="skin-background">Products</h2>
+		</div>
+		<div id="contact-us" class="block">
+			<h2 class="skin-background">Contact Us</h2>
+		</div>
+		<!-- End Section -->
+
+		<!-- Start Scroll To Top -->
+		<a class="scroll-to-top" href="#">
+			<i class="fa fa-chevron-up" aria-hidden="true"></i>
+		</a>
+		<!-- End Scroll To Top -->
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

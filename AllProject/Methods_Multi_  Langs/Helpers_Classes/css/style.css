@@ -1,0 +1,57 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+/*End Global Rulez*/
+
+/*
+	===================================
+	== Multilingual Notes And Tricks ==
+	===================================
+
+	* Helpers Classes
+	--- Use A Framework. [ Bootstrap , Foundation , Semantic UI ]
+	--- Float Classes [ Float-left | Float-right ]
+	--- Text Align [ Text-right | Text-left ]
+	--- Direction Classes [ ltr-dir | rtl-dir ]
+
+*/
+
+
+/* Start Header */
+
+p{
+	text-align: start;
+}
+
+
+.parent .child{
+	background-color: #ddd;
+	margin-bottom: 10px;
+	width: 24%;
+	margin-left: 1%;
+	height: 100px;
+	float: inline-start;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.text-right{
+	text-align: right;
+}

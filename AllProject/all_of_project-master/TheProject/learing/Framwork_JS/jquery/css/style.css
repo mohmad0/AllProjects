@@ -1,0 +1,46 @@
+body 
+{
+	height: 5000px;
+}
+*
+{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+
+.koko 
+{
+	width: 400px;
+	height: 200px;
+	padding: 10px;
+	color: black;
+	border:10px solid #000
+}
+.top 
+{
+	width: 400px;
+	padding: 10px;
+	color: black;
+	border:10px solid #000
+}
+.top div , .top div p , .top div p span {
+	border:5px solid #000;
+	padding: 10px;
+}
+.top div p span 
+{
+	display: block;
+}
+.go
+{
+	margin: 10px
+}
+
+.feed div , .feed p
+{
+	padding: 10px;
+	
+}

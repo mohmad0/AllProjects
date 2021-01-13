@@ -1,0 +1,48 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+	font-size: 18px;
+}
+
+.container{
+	text-align: center;
+	padding: 20px;
+	margin: 30px auto;
+}
+
+.container form{
+	margin: 20px auto;
+}
+
+.container form input{
+	padding: 15px;
+	border: 1px solid #ccc;
+	height: 40px;
+}
+
+.container form button{
+	height: 40px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.container .slug-result{
+	background-color: #eee;
+	padding: 15px;
+	width: 500px;
+	text-align: left;
+	margin: 20px auto;
+}
+
+/*End Global Rulez*/
+

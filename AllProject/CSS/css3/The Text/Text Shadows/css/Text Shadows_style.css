@@ -1,0 +1,9 @@
+h1
+{
+	text-align:center;
+	margin:20px ;
+	font-family:Arial, Tahoma ;
+	font-size: 50px;
+	text-shadow:15px 18px 7px #1f00da, 
+				15px 18px 4px #606aab;
+}

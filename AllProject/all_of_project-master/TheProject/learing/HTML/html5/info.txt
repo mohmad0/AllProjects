@@ -1,0 +1,44 @@
+Form ===> Form Attributes -[ AutoComplete, AutoFocus, NoValidate]
+     ===> Form Attributes - Form [ Action, Method, EncType ]
+     ===> Form Attributes - Form [ NoValidate, Target ]
+     ===> Form Attributes - {Min, Max, Step, Pattern}
+     ===> Form Attributes - [Multiple, Placeholder, Required]
+     ===> Form Attributes - [Readonly vs Disabled]
+     ===> Form Input - [Color, Range, Number]
+     ===> Form Input - [Email, Search, Url, Tel]
+     ===> Form Input - [Time, Date, Month, Week]
+     ===> New Form Elements - [Datalist]
+     ===> New Form Elements - [Output]
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+new ===> Audio
+    ===> Video
+    ===> Deprecated_Tag
+    ===> Semantics
+    ===> Support_HTML5
+    ===> Syntax
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+New Tags ===> New_Tags
+	 ===> New_Tags - [Details , Mark , Wbr]
+	 ===> New_Tags - [Figure , Figcaption]
+	 ===> New_Tags - [Header , Nav , Artical , Section , Footer]
+	 ===> New_Tags - [Main , Aside]
+	 ===> New_Tags - [Progress , Meter]
+	 ===> New_Tags - [Time , Dialog]
+
+
+
+
+
+
+
+
+
+
+
+

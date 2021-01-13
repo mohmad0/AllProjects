@@ -1,0 +1,76 @@
+
+	2D Transform ==> [ Rotate , Scale , Skew , Translate , Matrix ]
+
+	3D Transform ==> [ Backface Visibility , 
+			   Create Flip Card , 
+			   Perspective , 
+			   Rotate X_Y_Z() , 
+			   Scale 3D , 
+			   Translate 3D , 
+			   Transform Origin_Style 
+			]
+
+	Animation    ==> [  Animation Outro ,  
+			   Create Snake Loading , 
+			   Create Swing Dropdown , 
+			   Create Wave Audio Loading ,  
+			   Delay_Fill Mode , 
+			   Intro & Keyframes , 
+			   Iteration Count_Direction ,  
+			   Name_Duration , 
+			   Play State_Timing Function , 
+			   Shorthand 
+			]
+
+	Background New Features
+
+	Columns ==> Multi Columns [ Column Count,Column Gap - 
+				    Column Rule, Column Width - 
+				    Column Span, Shorthand 
+				  ]
+
+	Flex Box ==> Child [ Order _ Flex Grow _ 
+			     Flex Shrink , 
+			     Flex Basis _ Shorthand 
+			   ]
+		 ==> Parent [ Align Items _ Align Content , 
+			      Flex Direction _ Flex Wrap , 
+			      Flex Flow _ Justify Content 
+			    ]
+
+	Font
+
+	Media Queries
+
+	Opacity
+
+	Overflow New Features
+
+	Resize
+
+	Selectors ==> [ (Checked, Enabled, Disabled, Empty) - 
+			(Next, Start With, End With, Contains) - 
+			(Not, Last-Child, First-Of-Type) - 
+			(Nth-Child, Nth-Of-Type Part 1) - 
+			(Nth-Child, Nth-Of-Type Part 2) - 
+			(Only-Child, Only-Of-Type, Selection) 
+		      ]
+
+	The Box   ==> [ (Border Radius) - 
+			(Box Shadow) - 
+			(Box Sizing) - 
+			(Examples_ Box Shadow, Border Radius) 
+		      ]
+
+	The Text  ==> [ Text Overflow - 
+			Text Shadow - 
+			Word Wrap , While Space 
+		      ]
+
+	Transition ==> [ (Intro) - 
+			 (Property_Duration) - 
+			 (Timing Function _ Delay) - 
+  			 Example 
+		       ]
+
+	Var

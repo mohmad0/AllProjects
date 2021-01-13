@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> JSON </title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>
+		<div id="data">
+			<div id="name"></div>
+			<div id="age"></div>
+		</div>
+		<script>
+			let myjson = '{"username": "Ali", "age": 21}';
+			let myjs = JSON.parse(myjson);
+
+			document.getElementById('name').innerHTML = 'My Name Is ' + '<br>' + myjs.username + '<br>';
+
+			document.getElementById('age').innerHTML =  'My Age Is ' + '<br>' + myjs.age + '<br>';
+		</script>
+	</body>
+</html>

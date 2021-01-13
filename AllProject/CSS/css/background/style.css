@@ -1,0 +1,13 @@
+div
+{
+	height: 500px;
+	width: 1000px;
+	/*
+	background-image: url(mohmad.jpg); 
+	background-repeat: no-repeat; ==> or repeat-x or repeat-y
+	background-attachment: fixed; ==> or scrol
+	background-position: 50% 50%; ==> center center
+	background-color:red; ==> this are options [ rgb(60,79,145) or rgba ]
+	*/
+	background:rgba(60,79,145,0.5) url(mohmad.jpg) no-repeat fixed 50% 50%; /* background:color image repeat attachment position; */
+}

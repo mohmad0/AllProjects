@@ -1,0 +1,9 @@
+div
+{
+	width:300px ;
+	padding:10px ;
+	background:#00f ;
+	color:#fff ;
+	border:5px solid red;
+	outline: 15px solid green;/* this == border but no taking space from the main div but is adding out div */
+}

@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	min-height: 200vh;
+}
+
+section {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 1000;
+	pointer-events: none;
+}
+
+section .side{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('./background.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* I Used This Website To Make Clip ==> https://bennettfeely.com/clippy/  */
+
+section .side#side1{
+clip-path: polygon(0% 0%, 66% 0%, 31% 16%, 63% 29%, 25% 40%, 64% 44%, 28% 58%, 65% 65%, 23% 76%, 62% 90%, 27% 97%, 56% 100%, 0% 100%);
+
+}
+
+section .side#side2{
+clip-path: polygon(100% 0, 66% 0%, 31% 16%, 63% 29%, 25% 40%, 64% 44%, 28% 58%, 65% 65%, 23% 76%, 62% 90%, 27% 97%, 56% 100%, 100% 100%);
+
+}
+
+.contentBx{
+	background-color: #000;
+	color: #fff;
+	padding: 150px;
+	padding-top: 170vh;
+}
+
+.contentBx h2{
+	position: relative;
+	font-size: 5rem;
+}
+
+.contentBx p{
+	position: relative;
+	font-size: 1.2rem;
+}

@@ -1,0 +1,46 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+
+.container{
+    font:16px/200% Arial,Tahoma;
+    margin: 30px auto;
+    width: 800px;
+}
+
+.container div{
+    font-size: 25px;
+    background-color: #777;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container ul{
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container ul li{
+
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/*End Global Rulez*/
+

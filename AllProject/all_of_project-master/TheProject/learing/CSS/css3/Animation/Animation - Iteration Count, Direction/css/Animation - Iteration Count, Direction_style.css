@@ -1,0 +1,142 @@
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.tow
+{
+	width:100px ;
+	height:100px ;
+	top: 10px;
+	left:10px;
+	background-color:#f00 ;
+	position: absolute;
+	animation-name: moving;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-duration: alternate-reverse ;
+}
+
+@-webkit-keyframes moving {
+
+	0% {
+		top: 10px;
+
+	}
+
+	20% {
+		top: 50px;
+
+	}
+
+	30% {
+		top: 30px;
+	}
+
+
+	40% {
+		top: 100px;
+	}
+
+
+	50% {
+		top: 80px;
+	}
+
+
+	60% {
+		top: 130px;
+	}
+
+
+	70% {
+		top: 100px;
+	}
+
+
+	80% {
+		top: 150px;
+	}
+
+
+	90% {
+		top: 120px;
+	}
+
+	100% {
+		top: 200px;
+
+	}
+}
+
+@keyframes moving {
+
+	0% {
+		top: 10px;
+
+	}
+
+	20% {
+		top: 90px;
+
+	}
+
+	30% {
+		top: 60px;
+	}
+
+
+	40% {
+		top: 100px;
+	}
+
+
+	50% {
+		top: 80px;
+	}
+
+
+	60% {
+		top: 130px;
+	}
+
+
+	70% {
+		top: 100px;
+	}
+
+
+	80% {
+		top: 150px;
+	}
+
+
+	90% {
+		top: 120px;
+	}
+
+	100% {
+		top: 200px;
+
+	}
+}
+
+/*
+	animation-iteration-count: infinite;
+
+	animation-iteration-count: 1; ===> this is Number of repetitions  && this is defulte value you can adding ===> 2 , 3 , 4 , ...
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	animation-duration: reverse;
+
+	animation-duration: alternate;
+
+	animation-duration: alternate-reverse;
+
+	animation-duration: normal;
+
+*/

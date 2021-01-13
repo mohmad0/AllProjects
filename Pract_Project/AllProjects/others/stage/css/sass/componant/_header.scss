@@ -1,0 +1,20 @@
+.header {
+	padding: 50px 0;
+	min-height: 100vh;
+	position: relative;
+	color: #fff;
+    background-image: linear-gradient(to left, #6F1E51, black) !important;
+    h2{
+    	font-weight: bold;
+    	span{
+    		font-weight: normal;
+    		display: inline-block;
+			text-align: left;
+			font-size: 25px;
+		    color: #9E9E9E;
+    	}
+    }
+    img{
+    	max-width: 100%;
+    }
+}

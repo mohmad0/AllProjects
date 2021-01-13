@@ -1,0 +1,24 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;	
+	box-sizing: border-box;
+}
+
+$mainBox:12;
+
+%grid{
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	background-color: red;
+	font-family: Tahoma;
+}
+
+@for $i from 1 through $mainBox
+{
+	.col-#{$i}{
+		width: (100% / ( $mainBox / $i)); // this will do [ width: (100% / ( 12 / 1)) ] , [ width: (100% / ( 12 / 2)) ] , ...
+		@extend %grid;
+	}
+}

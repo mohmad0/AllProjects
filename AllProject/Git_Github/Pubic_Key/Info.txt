@@ -1,0 +1,32 @@
+
+
+Words You Will Hear:
+--------------------
+ssh => Security Shell
+-t  => Type Of Algorithem
+-b  => Step Of Algorithem
+
+rsa or dsa
+
+1- ssh-keygen -t rsa -b 4096 -C "mohmadailsia@gmail.com"
+	
+	Wright The ==> Name of File To Save This Information
+	Wright The Password
+	
+
+	Then Take Copy From Information Then ==> Go To [ Settings => SSH And GPG Keys => New SSH Key => Add The Copy Selected In => Key ]
+
+
+2- ssh -T "mohmadailsia@gmail.com" ==> This To Make Test
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Important Notes:
+----------------
+
+1- Create Repository For Every Project
+2- Create A New Branch For Every Feature Or Enhancenment
+3- No Need To Connect To Remote Repo When Working
+4- Anyone Can Push And Pull Depend On Permissions

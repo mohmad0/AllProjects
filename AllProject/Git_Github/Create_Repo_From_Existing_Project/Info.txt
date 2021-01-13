@@ -1,0 +1,23 @@
+
+
+Words You Will Hear:
+--------------------
+1- Go To The Folder That Be In It Project
+2- git init ==> Wright This Before Add Any Thing In The Folder && This Will Make Initialized To The Empty Folder
+3- Make This To Test Only ==> touch index.html => git status => git add index.html
+4- Go To The Github ==> Create New Repo
+5- git remote add origin git@github.com:Mohmad012/Course.git
+6- git push -u origin master
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Important Notes:
+----------------
+
+1- Create Repository For Every Project
+2- Create A New Branch For Every Feature Or Enhancenment
+3- No Need To Connect To Remote Repo When Working
+4- Anyone Can Push And Pull Depend On Permissions

@@ -1,0 +1,22 @@
+
+
+Words You Will Hear:
+--------------------
+1- git config -l Or git config --list
+2- git help config
+3- git config -l Or git config --list --show-origin
+4- git config --global user.name "mohmad"
+5- git config --global --unset user.name
+6- git config --global --edit
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Important Notes:
+----------------
+
+1- Create Repository For Every Project
+2- Create A New Branch For Every Feature Or Enhancenment
+3- No Need To Connect To Remote Repo When Working
+4- Anyone Can Push And Pull Depend On Permissions

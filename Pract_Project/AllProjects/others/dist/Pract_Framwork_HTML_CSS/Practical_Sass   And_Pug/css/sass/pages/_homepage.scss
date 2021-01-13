@@ -1,0 +1,268 @@
+	// In Media Query :
+
+// 1- By Normal Variable
+// 2- By Interpolation
+// 3- By Mixin
+
+
+// p{
+// 	@media (min-width: $minSmalle) {
+// 		color: blue
+// 	}
+// 	@include minMedium {
+// 		color: green
+// 	}
+// 	@media (max-width: $maxMobile) {
+// 		color: red
+// 	}
+// }
+
+// .product{
+// 	background-color: #eee;
+// 	padding: 10px;
+// 	border:1px solid #ccc;
+// 	width: 300px;
+// 	height: 150px;
+// 	position: relative;
+// 	@include prefixer(animation , makeFade 2s infinite linear , webkit ms moz o);
+// 	@include prefixer(box-shadow , 10px 10px 10px #ccc , webkit ms moz o);
+// 	@include makeAnimation(makeFade){
+// 		0%{
+// 			opacity:0.5;
+// 		}
+// 		50%{
+// 			opacity:1;
+// 		}
+// 		100%{
+// 			opacity:0.5;
+// 		}
+// 	}
+// 	.overlay{
+// 		@include overlay;
+// 		background-color: rgba($redColor, .5); // This Equal ==> rgba(red , .3); ===> rgb(255, 37, 0, .3);
+// 		color: #fff;
+// 	}
+// }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/* Start scrollbar */
+
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white, 50%)) {
+  ::-webkit-scrollbar {
+      width:  $size;
+      height: $size;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: $foreground-color;
+  }
+
+  ::-webkit-scrollbar-track {
+      background: $background-color;
+  }
+ 
+
+  // For Internet Explorer
+  body {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+
+@include scrollbars(.5em, #145473);
+
+/* End scrollbar */
+
+/* Start Slider */
+.slider{
+
+	blockquote{
+		font:{
+			size: 20px;
+			style:italic;
+			weight:bold;
+			family:Tahoma , Arial;
+		}
+		line-height: 1.7;
+		text-align: center;
+		color: #5e5e5e;
+		width: 80%;
+		margin: 30px auto;
+	}
+	img{
+
+		max-width: 100%;
+	}
+	.bullets{
+
+		text-align: center;
+
+		li{
+
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			background-color: $greyColor;
+			border-radius: 50%;
+			border:3px solid $greyColor;
+			cursor: pointer;
+
+
+			&.active,
+			&:hover{
+				@include prefixer(transition , all .5s ease , webkit moz o ms);
+				background-color: #fff;
+				border:3px solid #333;
+			}
+		}	
+	}
+}
+
+/* End Slider */
+
+/*Start Services*/
+
+.services{
+
+	.service-box{
+		float: $floatLeft;
+		width: (100% / 3);
+		&:not(:last-of-type){
+			padding-right: 20px;
+		}
+		@media #{$minMedium} {
+			float: $floatLeft;
+			width: (100% / 3);
+			&:not(:last-of-type){
+				padding-right: 20px;
+			}
+
+		}
+		@media #{$maxMobile} {
+			i{
+				display: block;
+				margin-bottom: 15px;
+			}
+		}
+		.service-title{
+			color: #666;
+
+			i{
+				font-size: 35px;
+				position: relative;
+				top: 4px;
+			}
+		}
+
+		.service-info{
+
+			color: #999;
+			line-height: 1.6;
+		}
+		.service-link{
+
+			color: $redColor;
+		}
+	}
+
+}
+
+/*End Services*/
+
+/*Start Player*/
+
+.players{
+
+	.player-box{
+		@media #{$minSmalle} {
+			float: $floatLeft;
+			width: (100% / 2);
+			text-align: center;
+			margin-bottom: 40px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		@media #{$minMedium} {
+			float: $floatLeft;
+			width: (100% / 3);
+			text-align: $textLeft;
+
+		}
+		@media #{$minLarg} {
+			width: (100% / 5);
+
+		}
+		@media #{$maxMobile} {
+			margin-bottom: 40px;
+		}
+		img{
+			max-width: 100%;
+		}
+		.player-title{
+			color: #666;
+			font-weight: normal;
+			span{
+
+				font-weight: bold;
+			}
+
+		}
+
+		.player-info{
+
+			color: #999;
+			line-height: 1.6;
+		}
+		.player-link{
+
+			color: $redColor;
+		}
+	}
+
+}
+
+/*End Player*/
+
+/* Start Lorem Ipsum */
+
+.lorem-ipsum{
+	.lorem-box{
+
+		.lorem-img{
+			max-width: 100%;
+		}
+		@media #{$maxMobile} {
+			.lorem-img:last-of-type{
+			    max-width: 44%;
+			    margin: 10px;
+			    
+			}
+		}
+		@media #{$maxMobile} {
+			float: $floatLeft;
+			width: (100% / 1);
+			text-align: center;
+			margin-bottom: 40px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		@media #{$minSmalle} {
+			float: $floatLeft;
+			width: (100% / 3);
+		    padding: 10px;
+
+		}
+		@media #{$minLarg} {
+			float: $floatLeft;
+			width: (100% / 3);
+			padding: 50px;
+
+		}
+
+	}
+}
+
+
+
+/* End Lorem Ipsum */

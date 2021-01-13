@@ -1,0 +1,60 @@
+/*Start Global Rulez*/
+
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	font-family: Arial, Tahoma;
+}
+/*End Global Rulez*/
+
+/*
+	===================================
+	== Multilingual Notes And Tricks ==
+	===================================
+
+	* Properties You Need To Focus On It
+	--- Padding
+	--- Margin
+	--- Border-radius
+	--- Pseudo Elements [ Before | After ]
+	--- Border
+
+*/
+
+
+/* Start Header */
+
+p{
+	text-align: start;
+}
+
+
+.parent .child{
+	background-color: #ddd;
+	margin:20px auto;
+	width: 300px;
+	height: 100px;
+	border-radius: 0 20px 20px 0;
+	position: relative;
+	border-width: 0 0 0 5px;
+	border-style: solid;
+	border-color: #f00;
+}
+
+.parent .child:after{
+	content: '';
+	position: absolute;
+	right: -30px;
+	top: 50%;
+	transform: translateY(-50%);
+	border-width: 15px;
+	border-style: solid;
+	border-color: transparent transparent transparent #ddd;
+}

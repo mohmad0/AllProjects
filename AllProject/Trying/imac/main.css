@@ -1,0 +1,31 @@
+.holder
+{
+	width:600px ;
+	height: 478px;
+	background-image: url('imge.png');
+	margin: 20px auto;
+	text-align: center;
+	position: relative;
+}
+
+.holder .project
+{
+	position: absolute;
+	top: 25px;
+	left: 26px;
+	width: 549px;
+	height: 310px;
+	overflow: hidden;
+
+}
+
+.holder .project img
+{
+	margin-top: 0;
+	transition:margin-top 8s ease-in-out
+}
+
+.holder .project:hover img
+{
+	margin-top: -2223px;
+}

@@ -1,0 +1,65 @@
+
+// Function To Opacity For All Browser
+@mixin opacity($val) {
+	zoom:1;
+	$opacity-ie:$val * 100;
+	filter: alpha(opacity = $opacity-ie);
+	opacity:$val;
+}
+
+
+// Function To Transition For All Prefixes
+@mixin transition($args...) {
+	-webkit-transition:$args;
+	-moz-transition:$args;
+	-o-transition:$args;
+	transition:$args;
+}
+
+.ele{
+	@include opacity(.5);
+	@include transition(all 1s ease);
+
+	// This Is Shourt Code
+	font:{
+		size: 30px;
+		weight:bold;
+	}
+	padding: {
+		left: 30px;
+		right: 30px;
+	}
+	border:{
+		left:  2px solid #ccc;
+		right: 2px solid #ccc;
+	}
+
+}
+
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white, 50%)) {
+  ::-webkit-scrollbar {
+      width:  $size;
+      height: $size;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: $foreground-color;
+  }
+
+  ::-webkit-scrollbar-track {
+      background: $background-color;
+  }
+
+  // For Internet Explorer
+  body {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+
+@include scrollbars(.5em, slategray);
+
+body {
+  height: 3000px;
+  width:  3000px;
+}
